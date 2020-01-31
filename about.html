@@ -2,15 +2,17 @@
 <html>
 <head>
   <title>
-    Recharge'19 - About
+    Recharge'20 - About
   </title>
   <!--Meta Tags-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- CSS Link tags-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--font awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
   <link rel="stylesheet" type="text/css" href="CSS/pos.css">
+
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
@@ -18,6 +20,21 @@
 </head>
 <body>
   <style type="text/css">
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.fontcolor{
+    color: #000000;
+  }
     body{
        background-image: url("Images/cons.png");
     
@@ -40,44 +57,22 @@
       }
     }
   </style>
-<!--Navbar-->
-<nav class="navbar navbar-light navbar-1 white navlast">
 
-  <!-- Navbar brand -->
-  <a class="navbar-brand" href="index.html"><img src="Images/Logo-navbar3.png" alt="logos"></a>
-
-  <!-- Collapse button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" style="border: none;" 
-    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-  <!-- Collapsible content -->
-  <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-
-    <!-- Links -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active" style="display: inline-block;">
-        <a class="nav-link navi" href="Index.html">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item" style="display: inline-block;">
-        <a class="nav-link navi"  href="about.html">About Us</a>
-      </li>
-      <li class="nav-item" style="display: inline-block;">
-        <a class="nav-link navi" href="events.html">Events</a>
-      </li>
-      <li class="nav-item" style="display: inline-block;">
-        <a class="nav-link navi" href="sponsors.html">Sponsors</a>
-      </li>
-      <li class="nav-item" style="display: inline-block;">
-        <a class="nav-link navi" href="contact.html">Contact</a>
-      </li>
+<nav class="navbar navbar-expand-sm bg-light" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-brand">
+      <img src="Images/Logo-navbar3.png" alt="">
+    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item"><button class="btn btn-light"><a class="active nav-link" href="home.html"><b class="fontcolor">Home</b></a></button></li>
+      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="about.html"><b class="fontcolor">About Us</b></a></button></li>
+      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="events.html"><b class="fontcolor">Events</b></a></button></li>
+      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="sponsors.html"><b class="fontcolor">Sponsors</b></a></button></li>
+      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="contact.html"><b class="fontcolor">Contact</b></a></button></li>
       
     </ul>
-    <!-- Links -->
-
   </div>
-  <!-- Collapsible content -->
 </nav>
-<!--/.Navbar-->
 
 <!--Centered Image-->
 <div id="REC-pic">
@@ -95,45 +90,7 @@ The team at Recharge 2019 have been working tirelessly to bring about a truly me
 <b>We hope you come and enjoy our fest that's filled with food, fun and frolic and make memories that you will carry a lifetime ahead. </b>
 <br>
 </p>
-<br><br><br>  
-<!--
-<div class="container-fluid"> 
-  <h3 class="text-center intro-text">SPONSORS</h3>  
-  <div class="center" id="title-sponsor"> 
-    <img src="Images/nexa-big.png" alt="Title Sponsor" class="center"> <br>
-    <h4 class="text-center">Title Sponsor</h4>  
-  </div>  
-  <br>  
-  <hr>  -->
- <!-- <div class="container-fluid row text-center" id="sponsor-line"> 
-    <div class="col-4"> 
-      <img src="Images/Team/Square photos/Kamalesh p - branding head.png" alt="Associate Sponsor">  
-      <h5 class="center">Associate Sponsor</h5> 
-    </div>  
-    <div class="col-4"> 
-      <img src="Images/Team/Square photos/Kamalesh p - branding head.png" alt="Venue Sponsor">  
-      <h5 class="center">Venue Sponsor</h5> 
-    </div>  
-    <div class="col-4"> 
-      <img src="Images/Team/Square photos/Kamalesh p - branding head.png" alt="Hospitality Sponsor">  
-      <h5 class="center">Hospitality Sponsor</h5> 
-    </div>  
-  </div>  
-  <div class="container-fluid row text-center" id="sponsor-line"> 
-    <div class="col-4"> 
-      <img src="Images/Team/Square photos/Kamalesh p - branding head.png" alt="Associate Sponsor">  
-      <h5 class="center">Some Sponsor</h5>  
-    </div>  
-    <div class="col-4"> 
-      <img src="Images/Team/Square photos/Kamalesh p - branding head.png" alt="Associate Sponsor">  
-      <h5 class="center">Some Sponsor</h5>  
-    </div>  
-    <div class="col-4"> 
-      <img src="Images/Team/Square photos/Kamalesh p - branding head.png" alt="Some Sponsor"> 
-      <h5 class="center`">Some Sponsor</h5> 
-    </div>  
-  </div>  
-</div> -->  
+<br><br><br>   
 <br><hr><br>
 <div class="container-fluid"> 
   <h3 class="text-center">The Team</h3><br>  
@@ -282,5 +239,23 @@ The team at Recharge 2019 have been working tirelessly to bring about a truly me
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>
