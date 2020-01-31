@@ -1,0 +1,294 @@
+.navlast
+{
+  background-color:  transparent;	; 
+
+}
+.ham-drop
+{
+	display: inline-block;
+}
+#gcal-button
+{	
+ 	padding: 20px;	
+	background: #1a73e8;	
+	color: #ffffff;	
+}	
+#reg-button	
+{	
+	background: #fbc02d;	
+	color: #ffffff;	
+}
+.team-name
+{	
+	margin-bottom: 0px;	
+	padding-bottom: 0px;	
+	border-bottom: 0px;	
+}	
+.team-desig
+{	
+	margin-top: 0px;	
+	padding-top: 0px;	
+	border-top: 0px;	
+}
+.bottom-back-btn
+{
+	padding-top: 2.5%;
+}
+.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;        
+	width: 50%;
+	padding-top: 5%;
+}
+.space
+{
+	padding-top: 2.5%;
+	font-size: 100%;
+}
+.social a
+{
+	color: #C5B358; (vegas gold)
+	padding-right: 3%;
+	padding-left: 3%;
+}
+.social
+{
+	padding-top: 0.5%;
+}
+.fa:hover 
+{
+  opacity: 0.7;
+}
+.end
+{
+	/*margin-top: 10px;*/
+	background: #412942 ;
+	
+	
+}
+.sponsor-intro-text
+{
+	color: #412942;
+	padding-top: 3%;	
+}
+.intro-text
+{
+	color: #412942;
+}
+.event
+{
+	padding-left: 2.5%;
+	padding-bottom: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2.5%;
+}
+.event-bottom
+{
+	width: 33.33%;
+}
+.head{
+	font-family: 'Roboto', sans-serif;
+}
+.headin
+{
+	padding-top: 3.5%;
+}
+.eventbottom1
+{
+	width: 99.99%;
+}
+.inf
+{
+	bottom: 0;
+	right: 0;
+	position: relative;
+}
+.tilel
+{
+	opacity: 0.75;
+}
+.pit
+{
+	font-family: 'Playfair Display SC', serif;
+}
+.pit1
+{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1.75rem;
+}
+@media only screen and (max-width: 600 px)
+{
+	img.navi
+	{
+		width: 25%;
+	}
+}
+.nav-back
+{
+	padding-top: 2%;
+
+}
+.nav-back a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;
+    padding:30px 25px;
+}
+.contact-info{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 20px;
+}
+.contact-text
+{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+.sponsor-page
+{
+	width: 100%;
+}
+.head1
+{
+	padding-top: 2.5%;
+	padding-bottom: 3.5%;
+}
+.bt
+{
+	padding-right: 1%;
+	padding-bottom: 2.5%;
+}
+.st
+{
+	padding-top: 2.5%;
+}
+.desc
+{
+	font-family: 'Roboto Slab', serif;
+	color: #000000;
+}
+.fontclass
+{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.sponsor-img-silver
+{
+	border: solid black;
+	border-width: thin;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+.navi
+{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+}
+.sponsor-img
+{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	border: solid black;
+	border-width: thin;
+}
+.foot
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+.rules
+{
+	font-family: 'Arvo', serif;
+	padding-left: 15%;
+}
+.derule
+{
+	font-family: 'Hind Siliguri', sans-serif;
+	padding-left: 15%;
+}
+.descfoot
+{
+	padding-left: 15%;
+}
+.footnav
+{
+	text-decoration: none;
+	padding-top: 1.5%;
+	color: #ffffff;
+	padding-bottom: 2.5%;
+}
+.footnav a
+{
+	color: #ffffff;
+}
+.car
+{
+	width: 80%;
+	height: 50%;
+}
+.contain
+{
+	height: 40%;
+}
+.sponsor-text{
+	color: #412942;
+	position: relative;
+	padding-right: 1%;
+	margin-right: 2%;
+	margin-left: 10%;
+	left: 45%;
+}
+.carouse
+{
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+@media screen and (max-width: 600px)
+{
+	.car
+	{
+		width:100%;
+		height: 50%;
+	}
+}
+
+.carbut
+{
+	color: #000000;
+}
+
