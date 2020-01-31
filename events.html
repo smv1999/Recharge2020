@@ -18,6 +18,17 @@
 <body>
 <style type="text/css">
 
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .fontcolor{
     color: #000000;
   }
@@ -44,7 +55,7 @@
     }
 </style>
 
-<nav class="navbar navbar-expand-sm bg-light">
+<nav class="navbar navbar-expand-sm bg-light" id="navbar">
   <div class="container-fluid">
     <div class="navbar-brand">
       <img src="Images/Logo-navbar3.png" alt="">
@@ -59,7 +70,7 @@
     </ul>
   </div>
 </nav>
-    
+<br><br>
  <div class="text-center">
  <h1 class="text-center headin pit"> Our events</h1>
  </div>
@@ -121,7 +132,7 @@
 	</div>
 	
 
-<div class="container-fluid">  
+<!-- <div class="container-fluid">  
 <footer class="end">
   <div class="container-fluid">
     <p class="text-center footnav">  <a href="Index.html"> HOME </a> | 
@@ -136,12 +147,30 @@
         <a href="https://instagram.com/recharge_2k19?utm_source=ig_profile_share&igshid=24pw82ont3la" target="_blank"><i class="fab fa-instagram"></i></a>  
    </p>
 </footer>
-</div>
+</div> -->
 
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
+  
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+  
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
 </body>
 </html>
