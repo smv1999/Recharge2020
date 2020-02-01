@@ -19,20 +19,24 @@
   
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="CSS/bulma.css">
 <link rel="stylesheet" type="text/css" href="CSS/pos.css">
+<link rel="stylesheet" type="text/css" href="CSS/footerdesign.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
 
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
 <body>
   <style type="text/css">
-
+  .bgtext{
+    color: #ffffff;
+  }
   .fontcolor{
     color: #000000;
   }
     body{
-       background-image: url("Images/cons.png");
+       background-image: url("Images/recimage.jpg");
     
   min-height: 100vh;
   background-size: cover;
@@ -44,7 +48,7 @@
     @media(min-width: 350)  
     {
       body{
-        background-image: url("Images/mobileland.png");
+        background-image: url("Images/recimage.jpg");
         min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -54,12 +58,14 @@
     }
   </style>
 
-<nav class="navbar navbar-expand-sm bg-light">
-  <div class="container-fluid">
-    <div class="navbar-brand">
-      <img src="Images/Logo-navbar3.png" alt="">
-    </div>
-    <div/div class="nav navbar-nav">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="home.html"><img src="Images/Logo-navbar3.png" alt=""></a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item"><button class="btn btn-light"><a class="active nav-link" href="home.html"><b class="fontcolor">Home</b></a></button></li>
       <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="about.html"><b class="fontcolor">About Us</b></a></button></li>
       <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="events.html"><b class="fontcolor">Events</b></a></button></li>
@@ -69,6 +75,7 @@
   </div>
 </nav>
 
+<br><br>
 <div id="REC-pic">
  
 <center><div class = "container carouse">
@@ -82,7 +89,7 @@
             <div class = "carousel-inner car">
                <div class = "carousel-item active">
                   <img class = "d-block w-100" 
-                     src = "Images/REC.png" 
+                     src = "Images/rechargelogo.png" 
                      alt = "First slide">
                   <div class = "carousel-caption d-none d-md-block">
                   </div>
@@ -125,10 +132,11 @@
          </div>
       </div> </center>
       
+     <center><b class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 40px;">An Intercollegiate Cultural Fest <br> Rajalakshmi Engineering College, Chennai</b></center> 
 
   <!--/Centered Image-->
   <div class="contain">
-  <h1 class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 50px;"> MAR 8th & 9th,2020</h1>
+  <h1 class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 40px;"> MAR 8th & 9th,2020</h1>
  </div>
 </div>
 
@@ -136,31 +144,55 @@
 <div class="text-center">
 <!-- <iframe width="300" height="154" src="https://w2.countingdownto.com/2396178" frameborder="0"></iframe> -->
   <br>
-  <a href="https://calendar.google.com/calendar/r/eventedit?text=Recharge+2019&dates=20190311/20190312&details=For+more+details+visit+https://rajalakshmi.org/recharge&location=Rajalakshmi+Engineering+College" target="_blank"><button class="btn btn-primary" id='gcal-button' style="border-radius: 15px;">Add to Google Calendar</button></a><br><br><br>
-  <h3 style="color: #412942;">Hurry up and<a href="events.html"><button type="button" class="btn btn-primary">Register</button></a>fast !!! </h3>
+  <button onclick="openCalendar()" type="button" class="btn btn-success" style="border-radius: 15px;">Add to Google Calendar</button><br><br><br>
+  <h3 style="color: #412942; font-size: 30px;">Hurry up and &nbsp;&nbsp;<a href="events.html"><button type="button" class="btn btn-success">Register</button>&nbsp;&nbsp;</a>fast !!! </h3>
 </div>
 <br><br>
-<!-- <div class="container-fluid">  
-  <footer class="end">
-    <div class="container-fluid">
-      <p class="text-center footnav">  <a href="Index.html"> HOME </a> | 
-        <a href="about.html"> ABOUT </a> | 
-        <a href="events.html"> EVENTS  </a> | 
-        <a href="contact.html"> CONTACT </a> |      </p>
-     </div>
-     <p class="text-center center-block social">
-          
-          <a href="https://www.facebook.com/recharge.2019/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/recharge_2k19?s=08" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://instagram.com/recharge_2k19?utm_source=ig_profile_share&igshid=24pw82ont3la" target="_blank"><i class="fab fa-instagram"></i></a>  
-     </p>
-  </footer>
-  </div> -->
 
+  <footer>
+    <div class="footer bg-dark" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                  <h3 class="bgtext">Recharge '20</h3>
+                   <p class="bgtext">Recharge '20 is an Intercollegiate Cultural Fest Conducted by Rajalakshmi Engineering College, Chennai</p>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                  
+              </div>
+              <div class="col-lg-3  col-md-6 col-sm-6">
+               
+            </div>
+
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <h3>Contact Us</h3>
+                    <p></p>
+                    <ul class="social">
+                        <li> <a href="https://www.facebook.com/myrecchennai"> <i class=" fa fa-facebook fa-lg"></i></a></li>
+                        <li> <a href="https://twitter.com/myrecchennai?s=08"> <i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li> <a href="https://www.youtube.com/user/myrecchennai"> <i class="fa fa-youtube fa-lg"></i></a></li>
+                        <li> <a href="https://www.instagram.com/recharge_fest/"> <i class="fa fa-instagram fa-lg"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    <!--/.footer-bottom--> 
+</footer>
+
+  
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script>
 
+<script>
+function openCalendar()
+{
+  window.open("https://calendar.google.com/calendar/r/eventedit?text=Recharge+2019&dates=20190311/20190312&details=For+more+details+visit+https://rajalakshmi.org/recharge&location=Rajalakshmi+Engineering+College");
+}
 </script>
 </body>
 </html>
