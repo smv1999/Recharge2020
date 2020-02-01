@@ -23,11 +23,10 @@
 <link rel="stylesheet" type="text/css" href="CSS/footerdesign.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
-
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
-<body>
+<body class="bodybg">
   <style type="text/css">
   .bgtext{
     color: #ffffff;
@@ -35,8 +34,8 @@
   .fontcolor{
     color: #000000;
   }
-    body{
-       background-image: url("Images/recimage.jpg");
+    .bodybg{
+       background-image: url("Images/cons.png");
     
   min-height: 100vh;
   background-size: cover;
@@ -47,8 +46,8 @@
 
     @media(min-width: 350)  
     {
-      body{
-        background-image: url("Images/recimage.jpg");
+      .bodybg{
+        background-image: url("Images/mobileland.png");
         min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -76,6 +75,8 @@
 </nav>
 
 <br><br>
+
+
 <div id="REC-pic">
  
 <center><div class = "container carouse">
@@ -132,20 +133,19 @@
          </div>
       </div> </center>
       
-     <center><b class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 40px;">An Intercollegiate Cultural Fest <br> Rajalakshmi Engineering College, Chennai</b></center> 
+     <center><b class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 45px;">An Intercollegiate Cultural Fest <br> Rajalakshmi Engineering College, Chennai</b></center> 
 
-  <!--/Centered Image-->
   <div class="contain">
   <h1 class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 40px;"> MAR 8th & 9th,2020</h1>
  </div>
-</div>
+</div> 
 
 <!--Countdown timer-->
 <div class="text-center">
 <!-- <iframe width="300" height="154" src="https://w2.countingdownto.com/2396178" frameborder="0"></iframe> -->
   <br>
   <button onclick="openCalendar()" type="button" class="btn btn-success" style="border-radius: 15px;">Add to Google Calendar</button><br><br><br>
-  <h3 style="color: #412942; font-size: 30px;">Hurry up and &nbsp;&nbsp;<a href="events.html"><button type="button" class="btn btn-success">Register</button>&nbsp;&nbsp;</a>fast !!! </h3>
+  <h3 style="color: #412942; font-size: 30px;">Hurry up and &nbsp;&nbsp;<button onclick="openEvents()" type="button" class="btn btn-success">Register</button>&nbsp;&nbsp;fast !!! </h3>
 </div>
 <br><br>
 
@@ -192,6 +192,10 @@
 function openCalendar()
 {
   window.open("https://calendar.google.com/calendar/r/eventedit?text=Recharge+2019&dates=20190311/20190312&details=For+more+details+visit+https://rajalakshmi.org/recharge&location=Rajalakshmi+Engineering+College");
+}
+function openEvents()
+{
+  window.open("events.html");
 }
 </script>
 </body>
