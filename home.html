@@ -4,7 +4,11 @@
 	<title>Recharge'20</title>
 	<!--Meta Tags-->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- header icon  -->
+  <link rel="shortcut icon"  href="favicon.ico" />
+
 	<!-- CSS Link tags-->
   
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -13,6 +17,7 @@
 <link rel="stylesheet" type="text/css" href="CSS/footerdesign.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
+
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
@@ -20,6 +25,57 @@
   .bgtext{
     color: #ffffff;
   }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+  .wrapper {
+	position:relative;
+	width:560px;
+}
+
+.wrapper img {
+	max-width:100%;
+	height:auto;
+}
+
+.wrapper iframe {
+	display:none;
+}
+
+.play-btn {
+	position:absolute;
+	z-index:666;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	background-color:transparent;
+	border:0;
+}
+
+.play-btn:hover {
+	cursor:pointer;
+}
+
+.play-btn:focus {
+	outline:0;
+}
   .fontcolor{
     color: #000000;
   }
@@ -80,7 +136,7 @@
             <div class = "carousel-inner car">
                <div class = "carousel-item active">
                   <img class = "d-block w-100" 
-                     src = "rechargelogo.png" 
+                     src = "recharge logo.png" 
                      alt = "First slide">
                   <div class = "carousel-caption d-none d-md-block">
                   </div>
@@ -88,28 +144,35 @@
                
               <div class = "carousel-item">
                  <img class = "d-block w-100" 
-                  src = "karthihome.png" 
-                  alt = "Karthi">
+                  src = "r6.jpg" 
+                  alt = "SANA">
                 <div class = "carousel-caption d-none d-md-block">
                     
                   </div>
             </div>
  
                <div class = "carousel-item">
-                 <img class = "d-block w-100"src = "SANA.jpg" alt = "visitorpass"> 
+                 <img class = "d-block w-100"src = "r10.jpg" alt = "visitorpass"> 
                 <div class = "carousel-caption d-none d-md-block">
                     
                   </div>
             </div>
-            
+            <!-- <a href="http://www.rajalakshmi.org/recharge/visitorpass.php"></a> -->
             	<div class = "carousel-item">
-                 <a href="http://www.rajalakshmi.org/recharge/visitorpass.php"><img class = "d-block w-100" 
-                  src = "Carousel.png" 
+                 <img class = "d-block w-100" 
+                  src = "r5.jpg" 
                   alt = "visitorpass"> </a>
                 <div class = "carousel-caption d-none d-md-block">
                     
                   </div>
             </div>
+
+            <div class = "carousel-item">
+              <img class = "d-block w-100"src = "r2.jpg" alt = "visitorpass"> 
+             <div class = "carousel-caption d-none d-md-block">
+                 
+               </div>
+         </div>
             
             <a class = "carousel-control-prev" href = "#carouselwithIndicators" role = "button" data-slide = "prev">
                <span class = "carousel-control-prev-icon" style="color: #000000;"aria-hidden = "true"></span>
@@ -123,8 +186,16 @@
          </div>
       </div> </center>
       
-     <center><b class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 45px;">An Intercollegiate Cultural Fest <br> Rajalakshmi Engineering College, Chennai</b></center> 
-
+     <div class="floating"><center><b class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 45px;">An Intercollegiate Cultural Fest <br> Rajalakshmi Engineering College, Chennai</b></center> 
+     </div>
+     <!-- <center><div class="wrapper">
+      <img  id="video-cover" src="Images/recimage.jpg" alt="Video title">
+      <iframe id="player" width="560" height="315" src="https://www.instagram.com/p/B8BgGKOAqzL/?utm_source=ig_web_button_share_sheet" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <button id="play" class="play-btn">
+        <svg enable-background="new 0 0 141.73 141.73" height="141.73px" id="Warstwa_1" version="1.1" viewBox="0 0 141.73 141.73" width="141.73px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M101.628,40.092c-8.22-8.22-19.149-12.746-30.774-12.746c-11.624,0-22.553,4.526-30.772,12.746   c-16.968,16.969-16.967,44.578,0.001,61.546c8.22,8.22,19.149,12.747,30.773,12.747s22.553-4.526,30.772-12.746   s12.747-19.148,12.747-30.773S109.848,48.312,101.628,40.092z M100.214,100.225c-7.842,7.842-18.269,12.16-29.358,12.16   s-21.517-4.319-29.359-12.161c-16.188-16.188-16.188-42.529-0.001-58.718c7.842-7.842,18.269-12.16,29.358-12.16   c11.091,0,21.518,4.318,29.36,12.16c7.842,7.843,12.161,18.269,12.161,29.359S108.056,92.382,100.214,100.225z" fill="#ffffff"/><path d="M65.893,55.983c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414l13.466,13.466L64.478,84.331   c-0.391,0.391-0.391,1.023,0,1.414c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293L80.065,71.57   c0.391-0.391,0.391-1.023,0-1.414L65.893,55.983z" fill="#ffffff"/></g></svg>
+      </button>
+    </div>
+  </center> -->
   <div class="contain">
   <h1 class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 40px;"> MAR 8th & 9th,2020</h1>
  </div>
@@ -134,10 +205,74 @@
 <div class="text-center">
 <!-- <iframe width="300" height="154" src="https://w2.countingdownto.com/2396178" frameborder="0"></iframe> -->
   <br>
-  <button onclick="openCalendar()" type="button" class="btn btn-success" style="border-radius: 15px;">Add to Google Calendar</button><br><br><br>
+  <button onclick="openCalendar()" type="button" class="btn btn-success">Add to Google Calendar</button><br><br><br>
   <h3 style="color: #412942; font-size: 30px;">Hurry up and &nbsp;&nbsp;<button onclick="openEvents()" type="button" class="btn btn-success">Register</button>&nbsp;&nbsp;fast !!! </h3>
 </div>
 <br><br>
+
+
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>OUR GALLERY</h2><br>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r1.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r2.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r3.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r4.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r5.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r6.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r7.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r8.jpg" alt="Recharge" width="400" height="310">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r9.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+   
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r10.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="r11.jpg" alt="Recharge" width="400" height="300">
+      </div>
+    </div>
+  </div><br>
 
   <footer>
     <div class="footer bg-dark" id="footer">
@@ -179,6 +314,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 <script>
+  $('#play').on('click', function(e) {
+	e.preventDefault();
+	$("#player")[0].src += "?autoplay=1";
+	$('#player').show();
+	$('#video-cover').hide();
+	$('#play').hide();
+})
 function openCalendar()
 {
   window.open("https://calendar.google.com/calendar/r/eventedit?text=Recharge+2019&dates=20190311/20190312&details=For+more+details+visit+https://rajalakshmi.org/recharge&location=Rajalakshmi+Engineering+College");
