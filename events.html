@@ -51,7 +51,7 @@
 	<div class="row text-center">
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="solodance.jpg" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+		  <img src="solodance.jpg" onclick="modal1();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Swing and Style</b><br>
 		</div>
 	  </div>
@@ -201,6 +201,57 @@
 		</div>
 	  </div>
 	</div><br>
+
+
+	<div id="myModal1" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg" >
+	  
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h4 class="modal-title" style="text-align: left;">BootUp Expo</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+			  <div class="row">
+				<div class="col-md-4 "><a href="img/events/bootupexpo.jpg"><img src="img/events/bootupexpo.jpg" alt="bootupexpo" class="img-fluid"></a></div>
+				<div class="col-md-8 ">
+				  <p align="justify">Are you a research enthusiast? Wanted to attend conference to present your work and interact with professionals. Showcase your research ideas in front of experienced faculty members and chief guests. Unleash the speaker within you.
+					 <br>
+					 <p><b>Domain</b></p>
+					 <ul>
+					   <li>Gender stereotypic empowerment    </li>                
+					   <li>Communication and signal processing</li>
+					   <li>Networks and security       </li>
+					   <li>Big data</li>
+					   <li>BioInformatics and Technology</li>
+					   <li>Open Innovations(VLSI, Android, Web, Embedded, Cloud, Power electronics, etc)</li>
+					 </ul>
+				  </p>
+				  <p><b>Team size :</b> 2 to 3</p>
+				  <p><b>Rules: </b></p>
+				  <ul>
+					<li> Project must be a product </li>
+					<li>Need not to be completely full</li>
+					<li>Demo video is accepted if the connections are complicated</li>
+					<li>Own components should be brought by the team</li>
+				  </ul>
+				  <p><b>Abstract should be sent to bootup@rajalakshmi.edu.in on or before 03-02-2020</b></p>
+				  <p><b>Contact :</b></p>
+				  <ol>
+					<li>Vishal S  +91 95660 30446 </li>
+					<li>Aarthi M  +91 94459 56811</li>
+				  </ol>
+				</div>
+			  </div>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+	  
+		</div>
+	  </div>
  
 	
 <footer>
@@ -259,6 +310,9 @@
     } else {
       navbar.classList.remove("sticky");
     }
+  }
+  function modal1(){
+  $('#myModal1').modal('show');
   }
   </script>
 </body>
