@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>No Internet</title>
+</head>
+<body onload="myFunction();">
+    
+    <center>
+        <img src="nointernet.png" height="200" alt="No Internet"><br>
+        <b>There is no Internet Connection.</b>
+    </center>
+</body>
+<script>
+function myFunction()
+{
+    if(navigator.onLine)
+    {
+        window.open("home.html","_self");
+    }
+}
+</script>
+</html>
