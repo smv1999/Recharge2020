@@ -109,7 +109,6 @@ html{
 }
 .flip-box {
   background-color: transparent;
-  border: 1px solid #f1f1f1;
   perspective: 1000px;
 }
 
@@ -141,4 +140,20 @@ html{
   background-color: #babaec;
   color: black;
   transform: rotateX(180deg);
+}
+.myIframe {
+  position: relative;
+  padding-top: 30px;
+  height: 300px;
+  width: auto;
+  overflow: auto; 
+  -webkit-overflow-scrolling:touch;
+  border: solid black 1px;
+} 
+.myIframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
