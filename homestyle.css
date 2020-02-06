@@ -137,7 +137,7 @@ html{
 }
 
 .flip-box-back {
-  background-color: #babaec;
+  /* background-color:; */
   color: black;
   transform: rotateX(180deg);
 }
@@ -156,4 +156,58 @@ html{
   left: 0;
   width: 100%;
   height: 100%;
+}
+/* Register btn animation */
+.reg{
+  display: none;
+}
+#register-btn{
+  height: 40px;
+  background-color: #d95b25;
+  color: white;
+  }
+
+#register-btn:hover{
+  
+  background-color: #e75719;
+  color: white;
+   
+}
+#register-btn:hover span{
+  display: none;
+}
+#register-btn:hover .fa-battery-quarter::before{
+  content: "\f240";
+  color: white;
+}
+#register-btn:hover span.reg{
+    
+    display: inline;
+  
+}
+
+
+
+.modal{
+
+overflow: auto;
+padding: 0;
+}
+.modal-body {
+padding: 0;
+}
+
+
+.event-btn:hover {
+  font-style: italic;
+}
+
+.social{
+  
+  display: flex;
+  
+}
+.social li{
+display: flex;
+padding-left: 40px;
 }
