@@ -3,7 +3,7 @@
 }
 
 .container-fluid {
-  padding: 20px;
+  padding: ;
 }
 
 .bg-grey {
@@ -17,6 +17,10 @@
   animation-timing-function: ease-in-out;
   margin-left: 30px;
   margin-top: 5px;
+}
+
+.nav-link:hover{
+  font-style: italic;
 }
 
 @keyframes floating {
@@ -157,6 +161,17 @@ html{
   width: 100%;
   height: 100%;
 }
+/* add to calender hover  */
+.cal-btn{
+  height:60px;
+  background-color: #d95b25; 
+  color:white;
+}
+.cal-btn:hover{
+  font-style: italic;
+  background-color: #c54a15;
+}
+
 /* Register btn animation */
 .reg{
   display: none;
@@ -169,7 +184,7 @@ html{
 
 #register-btn:hover{
   
-  background-color: #e75719;
+  background-color: #c54a15;
   color: white;
    
 }
@@ -205,9 +220,41 @@ padding: 0;
 .social{
   
   display: flex;
+  justify-content: center;
   
 }
 .social li{
-display: flex;
-padding-left: 40px;
+/* display: flex; */
+padding:0px 20px;
+}
+
+/* foooter contact num */
+.cont-num{
+font-size: 15px;
+}
+
+
+hr{
+  width:90%;
+  color: #46413ec4; 
+  border: solid .25px; 
+}
+
+/* footer heading text */
+footer .container .row h3  {
+  color: #d4d4d3;
+}
+
+footer .fa{
+  color:white;
+  padding: 0;
+}
+
+footer .fa:hover{
+  color:rgb(148, 141, 141);
+}
+
+.footer ul li a {
+  padding: none;
+  
 }
