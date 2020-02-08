@@ -1318,8 +1318,7 @@
 	var s = window.location.href.split("#");
 	if(s.length>1)
     {
-		// document.getElementById(s[1]).style.display="block";
-		console.log("Success");
+		$("#"+s[1]).modal('show');
 	}
     console.log(s);
 </script>
