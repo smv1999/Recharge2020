@@ -25,14 +25,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
 <body class="bodybg" onload="myFunction()">
-<!-- 
-  <style>
-    .navicolor{
-      background-color: #6a0dad;
-    }
- </style> -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFFFFF;">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,12 +34,12 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item"><button class="btn btn-light"><a class="active nav-link" href="home.html"><b class="fontcolor">Home</b></a></button></li>&nbsp;&nbsp;&nbsp;
-      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="#about"><b class="fontcolor">About Us</b></a></button></li>&nbsp;&nbsp;&nbsp;
-      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="#events"><b class="fontcolor">Events</b></a></button></li>&nbsp;&nbsp;&nbsp;
-      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="sponsors.html"><b class="fontcolor">Sponsors</b></a></button></li>&nbsp;&nbsp;&nbsp;
-      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="#gallery"><b class="fontcolor">Gallery</b></a></button></li>&nbsp;&nbsp;&nbsp;
-      <li class="nav-item"><button class="btn btn-light"><a class="nav-link" href="#locateus"><b class="fontcolor">Contact</b></a></button></li>&nbsp;&nbsp;&nbsp; 
+      <li class="nav-item"><button class="btn headerfont"><a class="active nav-link" href="home.html"><b class="fontcolor">Home</b></a></button></li>&nbsp;&nbsp;&nbsp;
+      <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="#about"><b class="fontcolor">About Us</b></a></button></li>&nbsp;&nbsp;&nbsp;
+      <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="#events"><b class="fontcolor">Events</b></a></button></li>&nbsp;&nbsp;&nbsp;
+      <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="sponsors.html"><b class="fontcolor">Sponsors</b></a></button></li>&nbsp;&nbsp;&nbsp;
+      <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="#gallery"><b class="fontcolor">Gallery</b></a></button></li>&nbsp;&nbsp;&nbsp;
+      <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="#locateus"><b class="fontcolor">Contact</b></a></button></li>&nbsp;&nbsp;&nbsp; 
     </ul>
   </div>
   <a class="navbar-brand img-responsive   " ><img src="rilogo.jpg" height="30"></a>
@@ -121,7 +115,7 @@
   </div> </center>
       <br><br><br><br>
      <div class="floating"><center><b class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 30px;">An Intercollegiate Cultural Fest <br> Rajalakshmi Engineering College, Chennai</b></center> 
-     </div>
+     </div><br>
      <!-- <center><div class="wrapper">
       <img  id="video-cover" src="Images/recimage.jpg" alt="Video title">
       <iframe id="player" width="560" height="315" src="https://www.instagram.com/p/B8BgGKOAqzL/?utm_source=ig_web_button_share_sheet" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -130,17 +124,17 @@
       </button>
     </div>
   </center> -->
-  <div class="contain">
-  <h1 class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 30px; justify-content:center;"><b>MARCH 8th & 9th,2020</b></h1>
- </div>
+ <center><button  onclick="openCalendar()" type="button" class="btn floating cal-btn">Add to Google Calendar</button></center> 
 </div> 
 
 <!--Countdown timer-->
 <div class="text-center">
 <!-- <iframe width="300" height="154" src="https://w2.countingdownto.com/2396178" frameborder="0"></iframe> -->
   <br>
-  <button  onclick="openCalendar()" 
-  type="button" class="btn floating cal-btn">Add to Google Calendar</button><br><br><br>
+  <div class="contain">
+    <h1 class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 30px; justify-content:center;"><b>MARCH 8th & 9th,2020</b></h1>
+   </div>
+ <br><br><br>
   <h3 class="txt-responsive" style="color: #412942; font-size: 30px;">Hurry up and 
     <button   onclick="openEvents()" 
     type="button" class="btn " id="register-btn"><i class="fa fa-battery-quarter" aria-hidden="true"></i>
@@ -332,7 +326,7 @@
   </div><br>
 <br>
   <h3 style="font-family: 'Questrial', sans-serif; font-size: 25px;" class="floating">
-    <a href="events.html"><button style="height: 40px; background-color: #d95b25; color:white;" 
+    <a href="events.html"><button style="height: 50px; background-color: #d95b25; color:white;" 
       class="btn btn-success event-btn">And Much More</button></a></h3>
   <br><br>
 <center>
