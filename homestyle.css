@@ -21,6 +21,7 @@
 
 .nav-link:hover{
   font-style: italic;
+  background-color:lightgray;
 }
 
 @keyframes floating {
@@ -72,7 +73,9 @@
 .fontcolor {
   color: #000000;
 }
-
+.modal-content{
+  border: 0px;
+}
 .bodybg {
   background-image: url("Images/cons.png");
 
@@ -200,16 +203,17 @@ html{
     display: inline;
   
 }
+.headerfont{
+  background-color: #ffffff;
+}
 .modal{
-
 overflow: auto;
 padding: 0;
+margin-top: 100px;
 }
 .modal-body {
 padding: 0;
 }
-
-
 .event-btn:hover {
   font-style: italic;
 }
