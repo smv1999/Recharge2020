@@ -37,3 +37,22 @@
   background-position: center center;
       }
     }
+
+/* footer style  */
+footer .container .row h3  {
+  color: #d4d4d3;
+}
+
+footer .fa{
+  color:white;
+  padding: 0;
+}
+
+footer .fa:hover{
+  color:rgb(148, 141, 141);
+}
+
+.footer ul li a {
+  padding: 0;
+  
+}

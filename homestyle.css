@@ -3,7 +3,7 @@
 }
 
 .container-fluid {
-  padding: ;
+  padding:20px ;
 }
 
 .bg-grey {
@@ -255,6 +255,6 @@ footer .fa:hover{
 }
 
 .footer ul li a {
-  padding: none;
+  padding: 0;
   
 }
