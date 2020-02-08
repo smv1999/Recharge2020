@@ -3,7 +3,7 @@
 }
 
 .container-fluid {
-  padding: ;
+  padding: 20px;
 }
 
 .bg-grey {
@@ -201,7 +201,6 @@ html{
   
 }
 .modal{
-
 overflow: auto;
 padding: 0;
 }
