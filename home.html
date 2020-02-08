@@ -124,6 +124,7 @@
       </button>
     </div>
   </center> -->
+
  <center><button  onclick="openCalendar()" type="button" class="btn floating cal-btn">Add to Google Calendar</button></center> 
 </div> 
 
@@ -133,8 +134,9 @@
   <br>
   <div class="contain">
     <h1 class="text-center space" style="font-family: 'Questrial', sans-serif; font-size: 30px; justify-content:center;"><b>MARCH 8th & 9th,2020</b></h1>
-   </div>
- <br><br><br>
+   </div><br>
+   <center><h1 id="demo" style="font-family: digital;" ></h1></center>
+ <br><br>
   <h3 class="txt-responsive" style="color: #412942; font-size: 30px;">Hurry up and 
     <button   onclick="openEvents()" 
     type="button" class="btn " id="register-btn"><i class="fa fa-battery-quarter" aria-hidden="true"></i>
@@ -200,7 +202,7 @@
             <div class="flip-box-back">
               <h2>Solo Dance</h2>
               <p><i>Description</i></p>
-              <p><i>Register <a href="events.html" onclick="modal1();">Here</a></i></p>
+              <p><i>Register <button onclick="event1();">Here</button></i></p>
 
             </div>
           </div>
@@ -616,6 +618,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="events.js"></script>
+<script src="countdown.js"></script>
 
 <script>
 function myFunction()
@@ -682,6 +685,12 @@ function openModalr12()
 {
   $('#myModalr12').modal('show');
 }
+// direct registration 
+function event1(){
+  window.open(events.html);
+  events.model1();
+  }
+
 </script>
 </body>
 </html>
