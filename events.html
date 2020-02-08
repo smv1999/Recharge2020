@@ -193,13 +193,13 @@
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="futsal.jpg " alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img src="futsal.jpg " alt="Recharge" width="400" height="300" onclick="modal23();" style="border-radius: 25px;">
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Futsal</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="videomemes.jpg" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img src="videomemes.jpg" alt="Recharge" width="400" height="300" onclick="modal24();" style="border-radius: 25px;">
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Cameo</b><br><br>
 		</div>
 	  </div>
@@ -1185,7 +1185,93 @@
 	  
 		</div>
 	  </div>
+<!-- Futsal -->
+<div id="myModal23" class="modal fade" role="dialog">
+	<div class="modal-dialog modal-lg" >
+  
+	  <!-- Modal content-->
+	  <div class="modal-content">
+		<div class="modal-header alert-primary ">
+		  <h4 class="modal-title" style="text-align: center;">FUTSAL</h4>
+		  <button type="button" class="close" data-dismiss="modal">&times;</button>
+		</div>
+		<div class="modal-body">
+		  <div class="row">
+			<div class="col-md-5 "><img src="futsal.jpg" alt="bootupexpo" class="img-fluid">
+			 <a href=""><button class="btn btn-success">Register</button></a>
+			</div>
+			<div class="col-md-7">
+			  <p align="justify">Title 
+				 <br>
+			  </p>
+			  <p><b>Team size :5</b></p>
+			  <p><b>Rules: </b></p>
+			  <ul>
+				<li>  </li>
+				<li></li>
+				<li></li>
+				<li></li>
+			  </ul>
+			  <p><b></b></p>
+			  <p><b>Contact :</b></p>
+			  <ol>
+				<li>ABC</li>
+				<li>DEF</li>
+			  </ol>
+			</div>
+		  </div>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+  
+	</div>
+  </div>
 
+  <!-- Cameo -->
+  <div id="myModal24" class="modal fade" role="dialog">
+	<div class="modal-dialog modal-lg" >
+  
+	  <!-- Modal content-->
+	  <div class="modal-content">
+		<div class="modal-header alert-primary ">
+		  <h4 class="modal-title" style="text-align: center;">Cameo</h4>
+		  <button type="button" class="close" data-dismiss="modal">&times;</button>
+		</div>
+		<div class="modal-body">
+		  <div class="row">
+			<div class="col-md-5 "><img src="videomemes.jpg" alt="bootupexpo" class="img-fluid">
+			 <a href=""><button class="btn btn-success">Register</button></a>
+			</div>
+			<div class="col-md-7">
+			  <p align="justify">Title 
+				 <br>
+			  </p>
+			  <p><b>Team size :5</b></p>
+			  <p><b>Rules: </b></p>
+			  <ul>
+				<li>  </li>
+				<li></li>
+				<li></li>
+				<li></li>
+			  </ul>
+			  <p><b></b></p>
+			  <p><b>Contact :</b></p>
+			  <ol>
+				<li>ABC</li>
+				<li>DEF</li>
+			  </ol>
+			</div>
+		  </div>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+  
+	</div>
+  </div>
 <footer>
     <div class="footer bg-dark" id="footer">
         <div class="container">
@@ -1308,6 +1394,12 @@
   }
   function modal22(){
   $('#myModal22').modal('show');
+  }
+  function modal23(){
+  $('#myModal23').modal('show');
+  }
+  function modal24(){
+  $('#myModal24').modal('show');
   }
   </script>
 </body>
