@@ -123,7 +123,6 @@ html{
 .flip-box-inner {
   position: relative;
   width: 100%;
-  height: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -293,13 +292,14 @@ footer .fa:hover{
 }
 
 #clockdiv div > span{
-	padding: 15px;
+  padding: 15px;
+  font-weight: bold;
 	border-radius: 3px;
-	background: #ec9f7e;
+	background: #e68d67;
 	display: inline-block;
 }
 
 .smalltext{
 	padding-top: 5px;
-	font-size: 16px;
+  font-size: 16px;
 }
