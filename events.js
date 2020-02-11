@@ -86,3 +86,6 @@ $('#myModal23').modal('show');
 function modal24(){
 $('#myModal24').modal('show');
 }
+function openRules(){
+  $('#genrules').modal('show');
+  }
