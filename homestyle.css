@@ -203,6 +203,31 @@ html{
     display: inline;
   
 }
+
+#evtregister-btn{
+  height: 40px;
+  background-color: #d95b25;
+  color: white;
+  }
+
+#evtregister-btn:hover{
+  
+  background-color: #c54a15;
+  color: white;
+   
+}
+#evtregister-btn:hover span{
+  display: none;
+}
+#evtregister-btn:hover .fa-battery-quarter::before{
+  content: "\f240";
+  color: white;
+}
+#evtregister-btn:hover span.reg{
+    
+    display: inline;
+  
+}
 .headerfont{
   background-color: #ffffff;
 }
