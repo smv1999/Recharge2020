@@ -1,7 +1,6 @@
 .bgtext {
   color: #ffffff;
 }
-
 .container-fluid {
   padding:20px ;
 }
@@ -175,59 +174,61 @@ html{
   background-color: #c54a15;
 }
 
+#visitor-btn{
+  height: 40px;
+  background-color: #d95b25;
+  color: white;
+  }
+
+#visitor-btn:hover{
+  
+  background-color: #c54a15;
+  color: white;
+   
+}
+#visitor-btn:hover span{
+  display: none;
+}
+#visitor-btn:hover .fa-battery-quarter::before{
+  content: "\f240";
+  color: white;
+}
+#visitor-btn:hover span.reg{
+    
+    display: inline;
+  
+}
+
 /* Register btn animation */
 .reg{
   display: none;
 }
-#register-btn{
+#register-btn, #evtregister-btn{
   height: 40px;
   background-color: #d95b25;
   color: white;
   }
 
-#register-btn:hover{
+#register-btn:hover, #evtregister-btn:hover{
   
   background-color: #c54a15;
   color: white;
    
 }
-#register-btn:hover span{
+#register-btn:hover span, #evtregister-btn:hover span{
   display: none;
 }
-#register-btn:hover .fa-battery-quarter::before{
+#register-btn:hover .fa-battery-quarter::before,#evtregister-btn:hover .fa-battery-quarter::before{
   content: "\f240";
   color: white;
 }
-#register-btn:hover span.reg{
+#register-btn:hover span.reg,#evtregister-btn:hover span.reg{
     
     display: inline;
   
 }
 
-#evtregister-btn{
-  height: 40px;
-  background-color: #d95b25;
-  color: white;
-  }
 
-#evtregister-btn:hover{
-  
-  background-color: #c54a15;
-  color: white;
-   
-}
-#evtregister-btn:hover span{
-  display: none;
-}
-#evtregister-btn:hover .fa-battery-quarter::before{
-  content: "\f240";
-  color: white;
-}
-#evtregister-btn:hover span.reg{
-    
-    display: inline;
-  
-}
 .headerfont{
   background-color: #ffffff;
 }
