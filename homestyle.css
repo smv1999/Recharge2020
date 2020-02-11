@@ -146,6 +146,7 @@ html{
   /* background-color:; */
   color: black;
   transform: rotateX(180deg);
+  height: 0;
 }
 .myIframe {
   position: relative;
