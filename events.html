@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="eventstyle.css">
 	
 </head>
-<body>
+<body onload="regLoading();">
 <nav class="navbar sticky navbar-expand-lg navbar-light" style="background-color: #FFFFFF;">
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
@@ -195,6 +195,29 @@
 	</div><br>
 
 
+	<div id="regmodal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+	  
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header alert-primary">
+			  <h4 class="modal-title" style="text-align: center;">Recharge '20</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body" align="left" style="margin-left: 10px;">
+			  <div class="row">
+				<div class="col-md-12" style="padding-top: 10px; padding-bottom: 10px;">
+					Gear Up! Registrations to open soon!!! Have a look at the exciting events waiting for you below!
+				</div>
+			  </div>
+			</div>
+		  </div>
+	  
+		</div>
+	  </div>
+
+
+
        <!-- Rules  -->
 
 	<div id="genrules" class="modal fade" role="dialog">
@@ -243,12 +266,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5" style="padding-top: 10px;"><img src="solodance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b>1</p>
+					<p><b>No of Participants: :</b>1</p>
 					<p><b>VENUE:</b> Side stage</p>
-					<p><b>Date & Time : </b>09:03:2020 , 11:30 AM</p>
-					<p><b>Time : </b>3 mins/group</p>
+					<p><b>Date & Time : </b>09/03/2020 , 11:30 AM</p>
+					<p><b>Duration: </b>3 mins/participant</p>
 				   
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -270,8 +293,8 @@
 						 It should be under the participant’s possession, in a pen-drive, and submitted
 						  to the event in-charge 30 minutes before the commencement of the event.</li>
 					<li>The songs chosen, costumes and the movements should be decent.</li>
-					<li>Judge’s decision will always be final.</li>
-					<li>jhagdhjgasdjhagdhjgasd</li>
+					<li>Judge’s decision will be final.</li>
+					
 				  </ul>
 				  
 				  <p><b></b></p>
@@ -304,11 +327,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5" style="padding-top: 10px;"><img src="solomusic.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b>1</p>
+					<p><b>No of Participants: :</b>1</p>
 					<p><b>VENUE:</b>Seminar Hall</p>
-					<p><b>Date & Time : </b>09:03:2020 , 10:00 AM</p>
-				  <p><b>Time : </b>3 mins/group</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>	
+					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
+				  <p><b>Time : </b>3 mins/participant</p>
+				  <p><b>Prizes Worth:</b>Rs. 10,000</p>	
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -329,9 +352,9 @@
 						 at the time of online registration (Videos of past performances are accepted.)</li>
 					<li>Shortlisted participants from this first level will be intimated through mail and
 						 will receive the payment link through the same. </li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>The songs chosen for the performance on stage should be decent. </li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge’s decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -363,11 +386,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5" style="padding-top: 10px;"><img src="dualdance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :2</b></p>
+					<p><b>No of Participants: :2</b></p>
 					<p><b>Venue:</b>Side Stage</p>
-					<p><b>Date & Time : </b>08:03:2020 , 11:30 AM</p>
-				  <p><b>Time : </b>15 mins/group</p>
-				  <p><b>Total Cash Prize:</b>Rs. 20,000</p>
+					<p><b>Date & Time : </b>08/03/2020 , 11:30 AM</p>
+				  <p><b>Time : </b>3 mins/group</p>
+				  <p><b>Prizes Worth:</b>Rs. 20,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p >
@@ -388,14 +411,14 @@
 						  registration (Videos of past performances are accepted).</li>
 					<li>Shortlisted teams from this first level will be intimated 
 						through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>The second level of screening will be on the day of the event (8th March).</li>
 					<li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
 						 It should be under the participant’s possession, in a pen-drive, and submitted 
 						 to the event in-charge 30 minutes before the commencement of the event.</li>
-					<li>The songs chosen, costumes and the movements should be decent.</li>
+					<li>The songs chosen & costumes should be decent.</li>
 					<li>After two levels of screening, the shortlisted participants will enter the finals (Adaptune)</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge’s decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -428,11 +451,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="groupdance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :8-12</b></p>
+					<p><b>No of Participants: :8-12</b></p>
 					<p><b>Venue:</b> Main stage</p>
-					<p><b>Date & Time : </b>09:03:2020 , 10:00 AM</p>
-				  <p><b>Time : </b>1+3 mins/group</p>
-				  <p><b>Total Cash Prize:</b>Rs. 35,000</p>
+					<p><b>Date & Time : </b>09/03/2020 , 10:00 AM</p>
+				  <p><b>Time : </b>1 + 3 mins/group</p>
+				  <p><b>Prizes Worth:</b>Rs. 35,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -456,8 +479,8 @@
 					<li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
 						 It should be under the participant’s possession, in a pen-drive, and submitted to
 						  the event in charge 30 minutes before the commencement of the event.</li>
-					<li>The songs chosen, costumes and the movements should be decent.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>The songs chosen & costumes should be decent.</li>
+					<li>Judge's decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -490,11 +513,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="soloinstrumental.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
+					<p><b>No of Participants: :1</b></p>
 					<p><b>Venue:</b>Seminar Hall</p>
-					<p><b>Date & Time : </b>09:03:2020 , 10:30 AM</p>
-					<p><b>Time : </b>3 mins/group</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Date & Time : </b>09/03/2020 , 10:30 AM</p>
+					<p><b>Time : </b>3 mins/participant</p> 
+					<p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -506,12 +529,12 @@
 				  <p><b>Rules: </b></p>
 				  <ul>
 					<li>Participants should bring their own instruments.</li>
-					<li>Participants are required to set up instruments without causing delays.</li>
+					<li>Participants are required to set up instruments without any delay.</li>
 					<li>For first level screening, the link for the videos must be submitted at the time of online registration (Videos of past performances are accepted.)</li>
 					<li>Shortlisted participants from this first level will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>A 5 Piece Drum kit will be provided.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge's decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -543,11 +566,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="musicbands.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b>3-10</p>
+					<p><b>No of Participants: :</b>3-10</p>
 					<p><b>Venue:</b>Main Stage</p>
-					<p><b>Date & Time : </b>08:03:2020 , 10:00 AM</p>
+					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
 					<p><b>Time : </b>5 + 10 mins/group</p>
-					<p><b>Total Cash Prize:</b>Rs. 35,000</p>
+					<p><b>Prizes Worth:</b>Rs. 35,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p> 
@@ -565,11 +588,14 @@
 						 be submitted at the time of online registration (Videos of past performances are accepted).</li>
 					<li>Shortlisted teams from this first level will be intimated through mail and will receive the payment
 						 link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Participants should bring their own instruments.</li>
-					<li>The songs to be performed on stage must be only in Indian languages.</li>
-					<li>A standard 5 piece drum kit with one bass amplifier and guitar amplifier will be provided.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>The songs to be performed on stage must be only in English and Indian languages.</li>
+					<li>A standard 5 piece drum kit with one bass amplifier and guita
+					<li>Any form of vulgarity will not be entertained and the judges have the rights to disqualify the band
+						in case of any.
+					</li>
+					<li>Judge's decision will be final.</li>
 
 				  </ul>
 				  <p><b></b></p>
@@ -602,12 +628,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="rapandbeatbox.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b>2</p>
+					<p><b>No of Participants: :</b>2</p>
 					<p><b>Venue:</b>Side Stage</p>
-					<p><b>Date & Time : </b>08:03:2020 , 02:00 PM</p>
+					<p><b>Date & Time : </b>08/03/2020 , 02:00 PM</p>
 				  <p><b>Time : </b>3 mins/group</p>
-				  <p><b>Registration Fees:</b>200 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>
+				  <p><b>Registration Fees:</b>150 per participant</p>
+				  <p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -626,9 +652,9 @@
 						(Videos of past performances are accepted).</li>
 					<li>Shortlisted teams from this first level will be 
 						intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge's decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -660,12 +686,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="adzap.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :5-7</b></p>
+					<p><b>No of Participants: :5-7</b></p>
 					<p><b>Venue:</b>Side Stage</p>
-					<p><b>Date & Time : </b>08:03:2020 , 10:00 AM</p>
+					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
 					<p><b>Time : </b>3 mins/group</p>
 					<p><b>Registration Fees:</b>100 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 20,000</p>
+					<p><b>Prizes Worth:</b>Rs. 20,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -681,9 +707,9 @@
 					<li>Only one person per team must register.</li>
 					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
 					<li>The first 10 registrations will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge’s decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -715,12 +741,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="channelsurfing.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :4-6</b></p>
+					<p><b>No of Participants: :4-6</b></p>
 					<p><b>Venue:</b>Side Stage</p>
-					<p><b>Date & Time : </b>09:03:2020 , 10:00 AM</p>
+					<p><b>Date & Time : </b>09/03/2020 , 10:00 AM</p>
 				  <p><b>Time : </b>3 mins/group</p>
 				  <p><b>Registration Fees:</b>150 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 20,000</p>
+				  <p><b>Prizes Worth:</b>Rs. 20,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -735,9 +761,9 @@
 					<li>Only one person per team must register.</li>
 					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
 					<li>The first 10 teams to register will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge's decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -769,12 +795,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="shipwreck.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
+					<p><b>No of Participants: :1</b></p>
 					<p><b>Venue:</b>Seminar hall</p>
-					<p><b>Date & Time : </b>08:03:2020 , 12:00 PM</p>
+					<p><b>Date & Time : </b>08/03/2020 , 12:00 PM</p>
 					<p><b>Time : </b>2 mins/group</p>
 					<p><b>Registration Fees:</b>150 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -787,9 +813,9 @@
 				  <ul>
 					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
 					<li>The first few 10 participants to register will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judges’ decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -822,11 +848,11 @@
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="fifa.png" alt="recharge" class="img-fluid">
 					<b>On spot Registration</b>
 					
-				  <p><b>Team size :1</b></p>
+				  <p><b>No of Participants: :1</b></p>
 				  <p><b>Venue:</b>Tech Lounge</p>
 				  <p><b>Date & Time : </b>09/03/2020 , 11:00 AM</p>
-				  <p><b>Registration Fees:</b>150 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>
+				  <p><b>Registration Fees:</b>200 per participant</p>
+				  <p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -890,10 +916,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="photography.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
-					<p><b>Date & Time : </b>08:03:2020 , 10:30 AM</p>
+					<p><b>No of Participants: :1</b></p>
+					<p><b>Venue:</b>COLLEGE CAMPUS</p>
+					<p><b>Date & Time : </b>08/03/2020 , 10:30 AM</p>
 					<p><b>Registration Fees:</b>200 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -904,7 +931,6 @@
 				 
 				  <p><b>Rules: </b></p>
 				  <ul>
-					<li> It is an Individual Competition.
 					<li> Theme will be given On-Spot.
 					<li> Participants should bring their own Digital Camera or DSLR 4. The participants must submit their best picture (only one entry) before the end of the event to the judge. Further information will be provided on the day of the event.
 					<li> Photos should be in JPEG format.
@@ -912,7 +938,7 @@
 					<li> Only basic editing like colour enhancement and cropping the image is allowed.
 					<li> Strictly no plagiarism.
 					<li> Photographs are strictly restricted within the campus boundaries.
-					<li> Judges’ decision will always be final.
+					<li> Judge’s decision will be final.
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -943,27 +969,43 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="callofduty.jpg" alt="recharge" class="img-fluid">
-					<b>On spot Registration</b>
-				  <p><b>Team size :1</b></p>
-				  <p><b>Registration Fees:</b>150 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>
+				  <b>On spot Registration</b> <br>
+				  <p><b>No of Participants:: 1</b></p>
+				  <p><b>Date & Time : </b>08/03/2020 , 12:00 PM</p>
+				  <p><b>Registration Fees: </b>200 per participant</p>
+				  <p><b>Prizes Worth: </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p> 
 					<b>Do people mistake you for a bot on multiplayer?</b><br>
 					Think you’re dexterous enough to own the server ?
-					Its time for your troops to be deployed. Grab your weapon ….					
+					Its time for your troops to be deployed. Grab your weapon!					
 					 <br>
 				  </p>
 				  
-				  <p><b>Rules: </b></p>
+				  <p><b>Tournament Rules: </b></p>
 				  <ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li>Teams much register as 4 member squad with no substitutes.</li>
+					<li>Participants without a team will be grouped on spot with other individual members </li>
+					<li>Participants should be present in the room while playing.</li>
+					<li>Players must bring their own mobiles and chargers if necessary for the tournament. </li>
+					<li>Online registrations only. No on spot registration entertained. </li>
+					<li>Payment must be made as a team and not as individual members. </li>
+					<li>Room ID will be provided only after registrations have been verified</li>
+					<li>Participants UID will be verified before the start of the tournament. </li>
+					<li>Teams must be present at the room before 15 minutes of the tournament commencement. </li>
 				  </ul>
 				  <p><b></b></p>
+				  <p><b>Game Rules: </b></p>
+				  <ul>
+					  <li>Players must choose their classes: medic, scout, clown, ninja, defender, mechanic and inform the coordinators the same before the beginning. Any changes from the mentioned classes while in-game will result in disqualification of the team.</li>
+					  <li>Emulators are strictly not allowed and the team will be disqualified if found. </li>
+					  <li>Mod APKs, Rooted devices are strictly prohibited. </li>
+					  <li>Bugs and glitches may not be exploited to your advantage. If found, the team will be disqualified</li>
+					  <li>Misconduct during the tournament will disqualify the entire team. </li>
+					  <li>Players must refrain from using offensive language. </li>
+					  <li>Referees decision will be final under any circumstances.</li>
+				  </ul>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Subhash: +91 8807181760</li>
@@ -988,10 +1030,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="facepainting.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :2</b></p>
-				  <p><b>Time : </b>60 mins/group</p>
-				  <p><b>Registration Fees:</b>200 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>No of Participants:: 2</b></p>
+					<p><b>Date & Time : </b>08/03/2020 , 02:30 PM</p>
+				  <p><b>Duration:  </b>60 mins/team</p>
+				  <p><b>Registration Fees: </b>150 per participant</p>
+				  <p><b>Prizes Worth: </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1003,12 +1046,12 @@
 				  
 				  <p><b>Rules: </b></p>
 				  <ul>
-					<li>Time limit: 60 mins
-				<li> Themes: Tribal art, Horror, Patterns.
+				
+				<li> Theme: Tribal art, Horror, Patterns.
 				<li> Participants can choose any one theme from the above.
 				<li> Registrations and payment must be done online within the given deadline.
 				<li> Required materials must be brought by the participants.
-				<li> Judges decision will be final.
+				<li> Judge's decision will be final.
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -1039,10 +1082,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="variety.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :5-9</b></p>
-				  <p><b>Time : </b>4 mins/group</p>
+					<p><b>No of Participants: :4-12</b></p>
+					<p><b>Date & Time : </b>09/03/2020 , 01:00 PM</p>
+				  <p><b>Duration: </b>8-10 + 3 mins/group</p>
 				  <p><b>Registration Fees:</b>200 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 30,000</p>
+				  <p><b>Prizes Worth:</b>Rs. 30,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1054,9 +1098,8 @@
 				  
 				  <p><b>Rules: </b></p>
 				  <ul>
-					
-					<li> Time limit: 8-10 +3(including stage setup) minutes.
-					<li>No.of participants allowed : 4-12 members.
+					<li>Participants must bring their own sound tracks, in a pendrive,if needed.</li>
+					<li>The sound tracks should be given to the event in-charge 30 minutes before the event commences. </li>
 					<li>Incase of violation of the time limit,offensive,obscene or disrespectful actions, 
 						the team will be disqualified.
 					<li>	The participants should be atleast 30 mins prior to the event.
@@ -1064,6 +1107,7 @@
 					<li>	Any performance of the participant's choice - Magic,puppet,shadow,mime, street play
 						can be performed.
 					<li>	Props can be used but explosives are not entertained. 
+						<li>Judge's decision will be final.</li>
 
 				  </ul>
 				  <p><b></b></p>
@@ -1095,9 +1139,10 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="fashionwalk.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b></p>
+					<!-- <p><b>No of Participants: : </b>1</p> -->
+					<p><b>Date & Time : </b>08/03/2020 , 03.30 PM</p>
 					<p><b>Registration Fees:</b>200 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 20,000</p>
+					<p><b>Prizes Worth:</b>Rs. 20,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1146,10 +1191,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="voiceover.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
-				  <p><b>Time : </b>3 mins/group</p>
+					<p><b>No of Participants: :</b>1</p>
+					<p><b>Date & Time : </b>09/03/2020 , 01.30 PM</p>
+				  <p><b>Duration: </b>3 mins/group</p>
 				  <p><b>Registration Fees:</b>150 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 3,000</p>
+				  <p><b>Prizes Worth:</b>Rs. 3,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1161,10 +1207,14 @@
 				  
 				  <p><b>Rules: </b></p>
 				  <ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+	
+				<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.
+				<li>The first few 15 participants to register will be intimated through mail and will receive the payment link through the same.
+				<li>Payment must be completed online via the link before the given deadline.
+				<li>However profane or vulgar languages will lead to immediate disqualification.
+				<li>Marking criteria: Spontaneity and  humor.
+				<li>Judge’s decision will be final.
+
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
@@ -1195,10 +1245,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="radiojockey.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
-					<p><b>Time : </b>3 mins/group</p>
+					<p><b>No of Participants: :1</b></p>
+					<p><b>Date & Time : </b>09/03/2020 , 01.30 PM</p>
+					<p><b>Duration : </b>3 mins/group</p>
 					<p><b>Registration Fees:</b>150 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>Title 
@@ -1245,9 +1296,9 @@
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="mixandmake.jpg" alt="recharge" class="img-fluid">
 					<p><b>Online Event</b></p>
-					<p><b>Team size :1</b></p>					
+					<p><b>No of Participants: :1</b></p>					
 					<p><b>Registration Fees:</b>100 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>Title 
@@ -1294,9 +1345,9 @@
 			  <div class="row">
 				<div class="col-md-5" style="padding-top: 10px;"><img src="poetry.jpg" alt="recharge" class="img-fluid">
 					<p><b>Online Event</b></p>					
-					<p><b>Team size :1</b></p>
+					<p><b>No of Participants: :1</b></p>
 					<p><b>Registration Fees:</b>100 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Prizes Worth:</b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1349,11 +1400,11 @@ Describe the feeling of fear. The catch? You can use only colours,textures and s
 		<div class="modal-body" align="left" style="margin-left: 10px;">
 		  <div class="row">
 			<div class="col-md-5" style="padding-top: 10px;"><img src="futsal.jpg" alt="recharge" class="img-fluid">
-				<p><b>Team size :5</b></p>
+				<p><b>No of Participants: :5</b></p>
 				<p><b>Venue:</b>College Campus</p>
-				<p><b>Date & Time:</b>,10:30 AM</p>
-				<p><b>Registration Fees:</b>100 per participant</p>
-				<p><b>Total Cash Prize:</b>Rs. 20,000</p>
+				<p><b>Date & Time: </b>08/03/2020 & 09.03.2020, 10:30 AM</p>
+				<p><b>Registration Fees: </b>600 per team</p>
+				<p><b>Prizes Worth:</b>Rs. 20,000</p>
 			</div>
 			<div class="col-md-7">
 			  <p>Title 
@@ -1408,9 +1459,9 @@ Describe the feeling of fear. The catch? You can use only colours,textures and s
 		  <div class="row">
 			<div class="col-md-5" style="padding-top: 10px;"><img src="videomemes.jpg" alt="recharge" class="img-fluid">
 				<p><b>Online Event</b></p>
-				<p><b>Team size :5</b></p>
+				<p><b>No of Participants: :5</b></p>
 				<p><b>Registration Fees:</b>100 per participant</p>
-				<p><b>Total Cash Prize:</b>Rs. 3,000</p>
+				<p><b>Prizes Worth:</b>Rs. 3,000</p>
 			</div>
 			<div class="col-md-7">
 			  <p>Title 
@@ -1519,6 +1570,11 @@ function topFunction() {
 		$("#"+s[1]).modal('show');
 	}
     console.log(s);
+
+function regLoading()
+{
+	$('#regmodal').modal('show');
+}
 </script>
 </body>
 </html>
