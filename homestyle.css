@@ -14,10 +14,6 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-<<<<<<< HEAD
-  margin-left:;
-=======
->>>>>>> 590f2233a191585a4a7b1da852da95ed294d49fd
   margin-top: 5px;
 }
 
@@ -117,15 +113,15 @@ html{
 .zoom:hover {
   transform: scale(1.18); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-.flip-box {
+/* .flip-box {
   background-color: transparent;
   perspective: 1000px;
-  padding-bottom: 80px;
 }
 
 .flip-box-inner {
   position: relative;
   width: 100%;
+  height: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -140,6 +136,8 @@ html{
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
 }
 
 .flip-box-front {
@@ -147,11 +145,11 @@ html{
 }
 
 .flip-box-back {
-  /* background-color:; */
+  position: relative;
   color: black;
   transform: rotateX(180deg);
-  height: 0;
-}
+  -webkit-transform: rotateX(180deg);
+} */
 .myIframe {
   position: relative;
   padding-top: 30px;
