@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="eventstyle.css">
 	
 </head>
-<body>
+<body onload="regLoading();">
 <nav class="navbar sticky navbar-expand-lg navbar-light" style="background-color: #FFFFFF;">
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
@@ -49,150 +49,173 @@
 	<!-- bg-white -->
 	<h2>EVENTS</h2><br>
 	<center><button type="button" class="btn" id="register-btn" onclick="openRules();">General Rules</button></center><br>
-	<i style="font-family: 'Questrial', sans-serif; font-size: 25px;">Register For Events</i>
-	<br><br>
+	<i style="font-family: 'Questrial', sans-serif; font-size: 25px;">Register For Events</i><br>
+	<p>Gear Up! Registrations to open soon! Have a look at the exciting events waiting for you below!</p>
+	<br>
 	<div class="row text-center">
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="solodance.jpg" onclick="modal1();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+		  <img class="img-responsive" src="solodance.jpg" onclick="modal1();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Swing and Style</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="solomusic.jpg" onclick="modal2();" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="solomusic.jpg" onclick="modal2();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Breaking Records</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="dualdance.jpg" onclick="modal3();" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="dualdance.jpg" onclick="modal3();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Double Dice</b><br><br>
 		</div>
 	  </div>
 	  
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="groupdance.jpg" onclick="modal4();" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="groupdance.jpg" onclick="modal4();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Chorus Feet</b><br><br>
 
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="soloinstrumental.jpg" onclick="modal5();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+		  <img  class="img-responsive" src="soloinstrumental.jpg" onclick="modal5();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Tune Your Strings</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="musicbands.jpg" onclick="modal6();" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="musicbands.jpg" onclick="modal6();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Philharmonic</b><br><br>
 		</div>
 	  </div>
 	  
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="rapandbeatbox.jpg" onclick="modal7();" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img  class="img-responsive" src="rapandbeatbox.jpg" onclick="modal7();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Alienated</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="adzap.jpg" onclick="modal8();" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="adzap.jpg" onclick="modal8();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Merchant-ize</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="channelsurfing.jpg" onclick="modal9();" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="channelsurfing.jpg" onclick="modal9();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Remote Surfing</b><br><br>
 		</div>
 	  </div>
 	 
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="shipwreck.jpg" onclick="modal10();" alt="Recharge" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="shipwreck.jpg" onclick="modal10();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Castaway</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="fifa.png" alt="Recharge" onclick="modal11();" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="fifa.png" alt="Recharge" onclick="modal11();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Dribble Trouble</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="photography.jpg" alt="Recharge" onclick="modal12();" width="400" height="300" style="border-radius: 25px;">
+		  <img  class="img-responsive" src="photography.jpg" alt="Recharge" onclick="modal12();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Shutter Bug</b><br><br>
 
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="callofduty.jpg" alt="Recharge" onclick="modal13();" width="400" height="300" style="border-radius: 25px;"><br>
+		  <img class="img-responsive" src="callofduty.jpg" alt="Recharge" onclick="modal13();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Call Of Duty</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="facepainting.jpg" alt="Recharge" onclick="modal14();" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="facepainting.jpg" alt="Recharge" onclick="modal14();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">DisguiseD!</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="variety.jpg" alt="Recharge" onclick="modal15();" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="variety.jpg" alt="Recharge" onclick="modal15();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Melange</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="fashionwalk.jpg" alt="Recharge" onclick="modal16();" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="fashionwalk.jpg" alt="Recharge" onclick="modal16();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Spotlight</b><br><br>
 
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="voiceover.jpg" alt="Recharge" onclick="modal18();" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="voiceover.jpg" alt="Recharge" onclick="modal18();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Mimic the Gimmick</b><br><br>
 
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="radiojockey.jpg" alt="Recharge" onclick="modal19();" width="400" height="300" style="border-radius: 25px;">
+		  <img  class="img-responsive" src="radiojockey.jpg" alt="Recharge" onclick="modal19();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Radio Joke-is-Key</b><br><br>
 <br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="mixandmake.jpg" alt="Recharge" onclick="modal21();" width="400" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="mixandmake.jpg" alt="Recharge" onclick="modal21();" width="400" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Pixelize</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="poetry.jpg" alt="Recharge" width="400" onclick="modal22();" height="300" style="border-radius: 25px;">
+		  <img class="img-responsive" src="poetry.jpg" alt="Recharge" width="400" onclick="modal22();" height="300" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Professor Quill</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="futsal.jpg " alt="Recharge" width="400" height="300" onclick="modal23();" style="border-radius: 25px;">
+		  <img class="img-responsive" src="futsal.jpg " alt="Recharge" width="400" height="300" onclick="modal23();" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Futsal</b><br><br>
 		</div>
 	  </div>
 	  <div class="col-sm-4">
 		<div class="thumbnail">
-		  <img src="videomemes.jpg" alt="Recharge" width="400" height="300" onclick="modal24();" style="border-radius: 25px;">
+		  <img class="img-responsive" src="videomemes.jpg" alt="Recharge" width="400" height="300" onclick="modal24();" style="border-radius: 25px;"><br>
 		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Cameo</b><br><br>
 		</div>
 	  </div>
 	</div><br>
+
+
+	<!-- <div id="regmodal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+	  
+		   <div class="modal-content">
+			<div class="modal-header alert-primary">
+			  <h4 class="modal-title" style="text-align: center;">Recharge '20</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body" align="left" style="margin-left: 10px;">
+			  <div class="row">
+				<div class="col-md-12" style="padding-top: 10px; padding-bottom: 10px;">
+					Gear Up! Registrations to open soon!!! Have a look at the exciting events waiting for you below!
+				</div>
+			  </div>
+			</div>
+		  </div>
+	  
+		</div>
+	  </div>  -->
+
 
 
        <!-- Rules  -->
@@ -243,12 +266,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5" style="padding-top: 10px;"><img src="solodance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b>1</p>
-					<p><b>VENUE:</b> Side stage</p>
-					<p><b>Date & Time : </b>09:03:2020 , 11:30 AM</p>
-					<p><b>Time : </b>3 mins/group</p>
+					<p><b>Team Size : </b>1</p>
+					<p><b>VENUE : </b> Side stage</p>
+					<p><b>Date & Time : </b>09/03/2020 , 11:30 AM</p>
+					<p><b>Duration : </b>3 mins/participant</p>
 				   
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -270,20 +293,22 @@
 						 It should be under the participant’s possession, in a pen-drive, and submitted
 						  to the event in-charge 30 minutes before the commencement of the event.</li>
 					<li>The songs chosen, costumes and the movements should be decent.</li>
-					<li>Judge’s decision will always be final.</li>
-					<li>jhagdhjgasdjhagdhjgasd</li>
+					<li>Judge’s decision will be final.</li>
+					
 				  </ul>
 				  
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Tamizh: +91 7358323402</li>
+					<li>Monica: +91 6380789510</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScv80GsnK30m_GJ7raIxpkB4Y1yOBxtJcRENz1cTUTmG3DTLA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLScv80GsnK30m_GJ7raIxpkB4Y1yOBxtJcRENz1cTUTmG3DTLA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -304,11 +329,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5" style="padding-top: 10px;"><img src="solomusic.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b>1</p>
-					<p><b>VENUE:</b>Seminar Hall</p>
-					<p><b>Date & Time : </b>09:03:2020 , 10:00 AM</p>
-				  <p><b>Time : </b>3 mins/group</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>	
+					<p><b>Team Size : </b>1</p>
+					<p><b>VENUE : </b>Seminar Hall</p>
+					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
+				  <p><b>Duration : </b>3 mins/participant</p>
+				  <p><b>Prizes Worth : </b>Rs. 10,000</p>	
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -329,20 +354,22 @@
 						 at the time of online registration (Videos of past performances are accepted.)</li>
 					<li>Shortlisted participants from this first level will be intimated through mail and
 						 will receive the payment link through the same. </li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>The songs chosen for the performance on stage should be decent. </li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge’s decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Rakshana: +91 9840750477</li>
+					
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSdu0LpWQB7_nt0_KT3sCWxVCaFPCrsyHqk9HcZuM6LH87S9CA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdu0LpWQB7_nt0_KT3sCWxVCaFPCrsyHqk9HcZuM6LH87S9CA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -363,11 +390,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5" style="padding-top: 10px;"><img src="dualdance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :2</b></p>
-					<p><b>Venue:</b>Side Stage</p>
-					<p><b>Date & Time : </b>08:03:2020 , 11:30 AM</p>
-				  <p><b>Time : </b>15 mins/group</p>
-				  <p><b>Total Cash Prize:</b>Rs. 20,000</p>
+					<p><b>Team Size : </b>2</p>
+					<p><b>Venue : </b>Side Stage</p>
+					<p><b>Date & Time : </b>08/03/2020 , 11:30 AM</p>
+				  <p><b>Duration : </b>3 mins/group</p>
+				  <p><b>Prizes Worth : </b>Rs. 20,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p >
@@ -388,25 +415,27 @@
 						  registration (Videos of past performances are accepted).</li>
 					<li>Shortlisted teams from this first level will be intimated 
 						through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>The second level of screening will be on the day of the event (8th March).</li>
 					<li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
 						 It should be under the participant’s possession, in a pen-drive, and submitted 
 						 to the event in-charge 30 minutes before the commencement of the event.</li>
-					<li>The songs chosen, costumes and the movements should be decent.</li>
+					<li>The songs chosen & costumes should be decent.</li>
 					<li>After two levels of screening, the shortlisted participants will enter the finals (Adaptune)</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge’s decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Nivedha: +91 7358442069</li>
+					<li>Rohit: +91 7010870052</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMf4hIaPewmMAI2KYAFAFR0AOcecpuezKUauqkc2KKqMWpWw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfMf4hIaPewmMAI2KYAFAFR0AOcecpuezKUauqkc2KKqMWpWw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -428,11 +457,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="groupdance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :8-12</b></p>
-					<p><b>Venue:</b> Main stage</p>
-					<p><b>Date & Time : </b>09:03:2020 , 10:00 AM</p>
-				  <p><b>Time : </b>1+3 mins/group</p>
-				  <p><b>Total Cash Prize:</b>Rs. 35,000</p>
+					<p><b>Team Size : </b>8-20</p>
+					<p><b>Venue : </b> Main stage</p>
+					<p><b>Date & Time : </b>09/03/2020 , 10:00 AM</p>
+				  <p><b>Duration : </b>1 + 3 mins/group</p>
+				  <p><b>Prizes Worth : </b>Rs. 35,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -456,19 +485,21 @@
 					<li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
 						 It should be under the participant’s possession, in a pen-drive, and submitted to
 						  the event in charge 30 minutes before the commencement of the event.</li>
-					<li>The songs chosen, costumes and the movements should be decent.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>The songs chosen & costumes should be decent.</li>
+					<li>Judge's decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Roshini: +91 7338887883</li>
+					<li>Harish: +91 7550149419</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXYf1QVqVg0DWbAna-gV53dJ96vYxVc5pf95bc3HUDq2WHCA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdXYf1QVqVg0DWbAna-gV53dJ96vYxVc5pf95bc3HUDq2WHCA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -490,11 +521,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="soloinstrumental.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
-					<p><b>Venue:</b>Seminar Hall</p>
-					<p><b>Date & Time : </b>09:03:2020 , 10:30 AM</p>
-					<p><b>Time : </b>3 mins/group</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Team Size : </b>1</p>
+					<p><b>Venue : </b>Seminar Hall</p>
+					<p><b>Date & Time : </b>09/03/2020 , 10:30 AM</p>
+					<p><b>Duration : </b>3 mins/participant</p> 
+					<p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -506,23 +537,25 @@
 				  <p><b>Rules: </b></p>
 				  <ul>
 					<li>Participants should bring their own instruments.</li>
-					<li>Participants are required to set up instruments without causing delays.</li>
+					<li>Participants are required to set up instruments without any delay.</li>
 					<li>For first level screening, the link for the videos must be submitted at the time of online registration (Videos of past performances are accepted.)</li>
 					<li>Shortlisted participants from this first level will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>A 5 Piece Drum kit will be provided.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge's decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Kaushik: +91 8610587144</li>
+					<li>Subashini: +91 9080013077</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUGupf6wX2Hq6WFfzZNH-hdcLJ-6suRmyHK-LKbrEmXWDZlA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSeUGupf6wX2Hq6WFfzZNH-hdcLJ-6suRmyHK-LKbrEmXWDZlA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -543,11 +576,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="musicbands.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b>3-10</p>
-					<p><b>Venue:</b>Main Stage</p>
-					<p><b>Date & Time : </b>08:03:2020 , 10:00 AM</p>
-					<p><b>Time : </b>5 + 10 mins/group</p>
-					<p><b>Total Cash Prize:</b>Rs. 35,000</p>
+					<p><b>Team Size : </b>3-10</p>
+					<p><b>Venue : </b>Main Stage</p>
+					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
+					<p><b>Duration : </b>5 + 10 mins/group</p>
+					<p><b>Prizes Worth : </b>Rs. 35,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p> 
@@ -565,23 +598,28 @@
 						 be submitted at the time of online registration (Videos of past performances are accepted).</li>
 					<li>Shortlisted teams from this first level will be intimated through mail and will receive the payment
 						 link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Participants should bring their own instruments.</li>
-					<li>The songs to be performed on stage must be only in Indian languages.</li>
-					<li>A standard 5 piece drum kit with one bass amplifier and guitar amplifier will be provided.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>The songs to be performed on stage must be only in English and Indian languages.</li>
+					<li>A standard 5 piece drum kit with one bass amplifier and guita
+					<li>Any form of vulgarity will not be entertained and the judges have the rights to disqualify the band
+						in case of any.
+					</li>
+					<li>Judge's decision will be final.</li>
 
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Karthik Shanker: +91 8825725332</li>
+					<li>Jeba Samuel: +91 6369122317</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScNxa-clGKHNLEXR30-rIjPSuJGvD8UTU1m2Kx5mVwAgjl10w/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLScNxa-clGKHNLEXR30-rIjPSuJGvD8UTU1m2Kx5mVwAgjl10w/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -602,12 +640,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="rapandbeatbox.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b>2</p>
-					<p><b>Venue:</b>Side Stage</p>
-					<p><b>Date & Time : </b>08:03:2020 , 02:00 PM</p>
-				  <p><b>Time : </b>3 mins/group</p>
-				  <p><b>Registration Fees:</b>200 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Team Size : </b>2</p>
+					<p><b>Venue : </b>Side Stage</p>
+					<p><b>Date & Time : </b>08/03/2020 , 02:00 PM</p>
+				  <p><b>Duration : </b>3 mins/group</p>
+				  <p><b>Registration Fees : </b>150 per participant</p>
+				  <p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -626,20 +664,21 @@
 						(Videos of past performances are accepted).</li>
 					<li>Shortlisted teams from this first level will be 
 						intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge's decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Hariharan: +91 6380759741</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTijcaZRSERUQm4qJxPSzYwjSoiD5XVHK86vA88jqxMgY7OQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfTijcaZRSERUQm4qJxPSzYwjSoiD5XVHK86vA88jqxMgY7OQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -660,12 +699,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="adzap.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :5-7</b></p>
-					<p><b>Venue:</b>Side Stage</p>
-					<p><b>Date & Time : </b>08:03:2020 , 10:00 AM</p>
-					<p><b>Time : </b>3 mins/group</p>
-					<p><b>Registration Fees:</b>100 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 20,000</p>
+					<p><b>Team Size : </b> :5-7</p>
+					<p><b>Venue : </b>Side Stage</p>
+					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
+					<p><b>Duration : </b>3 mins/group</p>
+					<p><b>Registration Fees : </b>100 per participant</p>
+					<p><b>Prizes Worth : </b>Rs. 20,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -681,20 +720,21 @@
 					<li>Only one person per team must register.</li>
 					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
 					<li>The first 10 registrations will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge’s decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Shampavi: +91 9940074877</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6ysuSDqe_kWqSUMQ387vTrSV14EF0NmjPHmVmh7GsStYkLw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSf6ysuSDqe_kWqSUMQ387vTrSV14EF0NmjPHmVmh7GsStYkLw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -715,12 +755,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="channelsurfing.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :4-6</b></p>
-					<p><b>Venue:</b>Side Stage</p>
-					<p><b>Date & Time : </b>09:03:2020 , 10:00 AM</p>
-				  <p><b>Time : </b>3 mins/group</p>
-				  <p><b>Registration Fees:</b>150 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 20,000</p>
+					<p><b>Team Size :</b>4-6</p>
+					<p><b>Venue : </b>Side Stage</p>
+					<p><b>Date & Time : </b>09/03/2020 , 10:00 AM</p>
+				  <p><b>Duration : </b>3 mins/group</p>
+				  <p><b>Registration Fees : </b>150 per participant</p>
+				  <p><b>Prizes Worth : </b>Rs. 20,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -735,20 +775,22 @@
 					<li>Only one person per team must register.</li>
 					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
 					<li>The first 10 teams to register will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judge's decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Siddarth: +91 9962285188</li>
+					<li>Mohit: +91 9042849002</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScec-Jw0yrQHEGQRdL57PlBNAi70DNbB5RvJmd5t6A7IvFudw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLScec-Jw0yrQHEGQRdL57PlBNAi70DNbB5RvJmd5t6A7IvFudw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -769,12 +811,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="shipwreck.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
-					<p><b>Venue:</b>Seminar hall</p>
-					<p><b>Date & Time : </b>08:03:2020 , 12:00 PM</p>
-					<p><b>Time : </b>2 mins/group</p>
-					<p><b>Registration Fees:</b>150 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Team Size : </b>1</p>
+					<p><b>Venue : </b>Seminar hall</p>
+					<p><b>Date & Time : </b>08/03/2020 , 12:00 PM</p>
+					<p><b>Duration: </b>2 mins/group</p>
+					<p><b>Registration Fees : </b>150 per participant</p>
+					<p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -787,20 +829,22 @@
 				  <ul>
 					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
 					<li>The first few 10 participants to register will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the deadline published.</li>
+					<li>Payment must be completed online via the link before the given deadline.</li>
 					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will always be final.</li>
+					<li>Judges’ decision will be final.</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Srivats: +91 9940023499</li>
+
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_Ny4KTnhXxResLarjsdl0bWaDFY1-4nhPl-vCnnFaeEkRdg/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSc_Ny4KTnhXxResLarjsdl0bWaDFY1-4nhPl-vCnnFaeEkRdg/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -822,11 +866,11 @@
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="fifa.png" alt="recharge" class="img-fluid">
 					<b>On spot Registration</b>
 					
-				  <p><b>Team size :1</b></p>
-				  <p><b>Venue:</b>Tech Lounge</p>
+				  <p><b>Team Size : </b>1</p>
+				  <p><b>Venue : </b>Tech Lounge</p>
 				  <p><b>Date & Time : </b>09/03/2020 , 11:00 AM</p>
-				  <p><b>Registration Fees:</b>150 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>
+				  <p><b>Registration Fees : </b>200 per participant</p>
+				  <p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -868,6 +912,8 @@
 				  <p><b>Contact :</b></p>
 				  <ol>
 					<li>Srinithi: +91 6385122743</li>
+					<li>Md. Ashiq: +91 9677047666</li>
+					<li>Sujith: +91 8015275654</li>
 				  </ol>
 				</div>
 			  </div>
@@ -890,10 +936,11 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="photography.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
-					<p><b>Date & Time : </b>08:03:2020 , 10:30 AM</p>
-					<p><b>Registration Fees:</b>200 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Team Size :</b>1</p>
+					<p><b>Venue : </b>COLLEGE CAMPUS</p>
+					<p><b>Date & Time : </b>08/03/2020 , 10:30 AM</p>
+					<p><b>Registration Fees : </b>200 per participant</p>
+					<p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -904,7 +951,6 @@
 				 
 				  <p><b>Rules: </b></p>
 				  <ul>
-					<li> It is an Individual Competition.
 					<li> Theme will be given On-Spot.
 					<li> Participants should bring their own Digital Camera or DSLR 4. The participants must submit their best picture (only one entry) before the end of the event to the judge. Further information will be provided on the day of the event.
 					<li> Photos should be in JPEG format.
@@ -912,18 +958,18 @@
 					<li> Only basic editing like colour enhancement and cropping the image is allowed.
 					<li> Strictly no plagiarism.
 					<li> Photographs are strictly restricted within the campus boundaries.
-					<li> Judges’ decision will always be final.
+					<li> Judge’s decision will be final.
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSePjLDU28QKBg_bb0yilMRsfxPSXc3SQC1As32zgQsMyJualA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSePjLDU28QKBg_bb0yilMRsfxPSXc3SQC1As32zgQsMyJualA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -943,30 +989,50 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="callofduty.jpg" alt="recharge" class="img-fluid">
-					<b>On spot Registration</b>
-				  <p><b>Team size :1</b></p>
-				  <p><b>Registration Fees:</b>150 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>
+				  <b>On spot Registration</b> <br>
+				  <p><b>Team Size : </b>1</p>
+				  <p><b>Venue : </b>Tech Lounge</p>
+				  <p><b>Date & Time : </b>08/03/2020 , 12:00 PM</p>
+				  <p><b>Registration Fees : </b>200 per participant</p>
+				  <p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p> 
 					<b>Do people mistake you for a bot on multiplayer?</b><br>
 					Think you’re dexterous enough to own the server ?
-					Its time for your troops to be deployed. Grab your weapon ….					
+					Its time for your troops to be deployed. Grab your weapon!					
 					 <br>
 				  </p>
 				  
-				  <p><b>Rules: </b></p>
+				  <p><b>Tournament Rules: </b></p>
 				  <ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li>Teams much register as 4 member squad with no substitutes.</li>
+					<li>Participants without a team will be grouped on spot with other individual members </li>
+					<li>Participants should be present in the room while playing.</li>
+					<li>Players must bring their own mobiles and chargers if necessary for the tournament. </li>
+					<li>Online registrations only. No on spot registration entertained. </li>
+					<li>Payment must be made as a team and not as individual members. </li>
+					<li>Room ID will be provided only after registrations have been verified</li>
+					<li>Participants UID will be verified before the start of the tournament. </li>
+					<li>Teams must be present at the room before 15 minutes of the tournament commencement. </li>
 				  </ul>
 				  <p><b></b></p>
+				  <p><b>Game Rules: </b></p>
+				  <ul>
+					  <li>Players must choose their classes: medic, scout, clown, ninja, defender, mechanic and inform the coordinators the same before the beginning. Any changes from the mentioned classes while in-game will result in disqualification of the team.</li>
+					  <li>Emulators are strictly not allowed and the team will be disqualified if found. </li>
+					  <li>Mod APKs, Rooted devices are strictly prohibited. </li>
+					  <li>Bugs and glitches may not be exploited to your advantage. If found, the team will be disqualified</li>
+					  <li>Misconduct during the tournament will disqualify the entire team. </li>
+					  <li>Players must refrain from using offensive language. </li>
+					  <li>Referees decision will be final under any circumstances.</li>
+				  </ul>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
+					<li>Md. Amja: +91 9944190899</li>
+					<li>Swetha: +91 7397488287</li>
+
 				  </ol>
 				</div>
 			  </div>
@@ -988,10 +1054,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="facepainting.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :2</b></p>
-				  <p><b>Time : </b>60 mins/group</p>
-				  <p><b>Registration Fees:</b>200 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Team Size : </b>2</p>
+					<p><b>Venue : </b>Seminar Hall</p>
+					<p><b>Date & Time : </b>08/03/2020 , 02:30 PM</p>
+				  <p><b>Duration :  </b>60 mins/team</p>
+				  <p><b>Registration Fees : </b>150 per participant</p>
+				  <p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1003,23 +1071,23 @@
 				  
 				  <p><b>Rules: </b></p>
 				  <ul>
-					<li>Time limit: 60 mins
-				<li> Themes: Tribal art, Horror, Patterns.
+				
+				<li> Theme: Tribal art, Horror, Patterns.
 				<li> Participants can choose any one theme from the above.
 				<li> Registrations and payment must be done online within the given deadline.
 				<li> Required materials must be brought by the participants.
-				<li> Judges decision will be final.
+				<li> Judge's decision will be final.
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_CXQozeFjr1d1yIkXgZ5_A52q0X02oLFkS-UlTNOswOwaww/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSf_CXQozeFjr1d1yIkXgZ5_A52q0X02oLFkS-UlTNOswOwaww/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -1039,10 +1107,13 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="variety.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :5-9</b></p>
-				  <p><b>Time : </b>4 mins/group</p>
-				  <p><b>Registration Fees:</b>200 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 30,000</p>
+					<p><b>Team Size : </b>4-12</p>
+					<p><b>Venue : </b>Main Stage 
+					</p>
+					<p><b>Date & Time : </b>09/03/2020 , 01:00 PM</p>
+				  <p><b>Duration : </b>3 + 10 mins/group</p>
+				  <p><b>Registration Fees : </b>200 per participant</p>
+				  <p><b>Prizes Worth :</b>Rs. 30,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1054,9 +1125,8 @@
 				  
 				  <p><b>Rules: </b></p>
 				  <ul>
-					
-					<li> Time limit: 8-10 +3(including stage setup) minutes.
-					<li>No.of participants allowed : 4-12 members.
+					<li>Participants must bring their own sound tracks, in a pendrive,if needed.</li>
+					<li>The sound tracks should be given to the event in-charge 30 minutes before the event commences. </li>
 					<li>Incase of violation of the time limit,offensive,obscene or disrespectful actions, 
 						the team will be disqualified.
 					<li>	The participants should be atleast 30 mins prior to the event.
@@ -1064,18 +1134,20 @@
 					<li>	Any performance of the participant's choice - Magic,puppet,shadow,mime, street play
 						can be performed.
 					<li>	Props can be used but explosives are not entertained. 
+						<li>Judge's decision will be final.</li>
 
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
+					<li>Ganesh: +91 6380668043</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSejNpgEMLwQdNfZNUcfQvtD7S7bWflsWsOk4jOQF0oafoAXCg/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSejNpgEMLwQdNfZNUcfQvtD7S7bWflsWsOk4jOQF0oafoAXCg/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -1095,9 +1167,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="fashionwalk.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :</b></p>
-					<p><b>Registration Fees:</b>200 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 20,000</p>
+					<!-- <p><b>Team Size : : </b>1</p> -->
+					<p><b>Team Size : </b>1</p>
+					<p><b>Venue : </b>Main Stage</p>
+					<p><b>Date & Time : </b>08/03/2020 , 03.30 PM</p>
+					<p><b>Registration Fees : </b>200 per participant</p>
+					<p><b>Prizes Worth :</b>Rs. 20,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1110,20 +1185,32 @@
 				 
 				  <p><b>Rules: </b></p>
 				  <ul>
-					<li></li>
-					<li></li>
-					<li></li>
-				  </ul>
+					<li>The theme for the event is:Fusion Of Cultures (or) Periods Of Time</li>
+					<li>Since the registration is based on first come first served, registration link will be open for only a limited time. </li>
+					<li> The first 30 registrations will be intimated through mail and the payment link will be given through the same.</li>
+					<li>The payment must be done online before the given deadline. </li>
+					<li>For first round of screening,judgement will be based on costumes, delivery of the theme ,walking stance and attitude.</li>
+					<li>The shortlisted students from this first level will go to the finals. The judgement is based on the talen
+						t exhibited by the participant and also the answer  to the questions posed by the judges. </li>
+					<li>The participants are requested to bring their own soundtracks, if required, in a pendrive and must 
+						be given to the student in-charge 30 mins before the event commences. </li>
+					<li>Offensive behavior & vulgarity will lead to disqualification. </li>
+					<li>Negative marks are allotted if the time limit is exceeded. </li>
+					<li>All costumes are permitted, which maintain decency. </li>
+					<li>Props should be brought by the respective participant.</li>
+					<li>Judge's decision will be final.</li>
+				</ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
+					<li>Veena Jagan: +91 8903017788</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4BlOx-n1tjetQKWzfOZCXdqUWJ2-cGJ4ETB7r_oz89UXLZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSd4BlOx-n1tjetQKWzfOZCXdqUWJ2-cGJ4ETB7r_oz89UXLZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -1146,10 +1233,12 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="voiceover.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
-				  <p><b>Time : </b>3 mins/group</p>
-				  <p><b>Registration Fees:</b>150 per participant</p>
-				  <p><b>Total Cash Prize:</b>Rs. 3,000</p>
+					<p><b>Team Size : </b>1</p>
+					<p><b>Venue : </b>Seminar Hall</p>
+					<p><b>Date & Time : </b>09/03/2020 , 01.30 PM</p>
+				  <p><b>Duration : </b>3 mins/participant</p>
+				  <p><b>Registration Fees : </b>150 per participant</p>
+				  <p><b>Prizes Worth : </b>Rs. 3,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1161,21 +1250,27 @@
 				  
 				  <p><b>Rules: </b></p>
 				  <ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+	
+				<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.
+				<li>The first few 15 participants to register will be intimated through mail and will receive the payment link through the same.
+				<li>Payment must be completed online via the link before the given deadline.
+				<li>However profane or vulgar languages will lead to immediate disqualification.
+				<li>Marking criteria: Spontaneity and  humor.
+				<li>Judge’s decision will be final.
+
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
+					<li>Ajaath: +91 9600194521</li>
+					<li>Panbalan: +91 9363346700</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGAIjwzScCjhiyFDfYiNOivgBQa6DWr08mlp8r0h6_I610YQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGAIjwzScCjhiyFDfYiNOivgBQa6DWr08mlp8r0h6_I610YQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -1195,33 +1290,47 @@
 			<div class="modal-body" align="left" style="margin-left: 10px;">
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="radiojockey.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team size :1</b></p>
-					<p><b>Time : </b>3 mins/group</p>
-					<p><b>Registration Fees:</b>150 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Team Size  : </b>1</p>
+					<p><b>Venue : </b>Side Stage</p>
+					<p><b>Date & Time : </b>09/03/2020 , 01.30 PM</p>
+					<p><b>Duration : </b>3 mins/group</p>
+					<p><b>Registration Fees : </b>150 per participant</p>
+					<p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
-				  <p>Title 
-					 <br>
+				  <p> 
+				<b>	Spontaneity and rapidity are the linchpins for a triumphant Radio Jockey!</b> <br>
+					Are you the person full of enthusiasm who never gets exhausted for speaking round the clock? Recharge’20 is looking for a proficient RJ. If you’re spontaneous, smart and having a brilliant sense of humour, buckle up to grab the pipe bomb because you could be the One!
+					
 				  </p>
 				
 				  <p><b>Rules: </b></p>
 				  <ul>
-					<li>  </li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li> Theme will be given on-spot.
+					</li>
+					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
+					<li>The first few 15 participants to register will be intimated through mail and will receive the payment link through the same.
+					</li>
+					<li>Payment must be completed online via the link before the given deadline.   	Participants can express themselves in both languages’ Tamil and English.
+					</li>
+					<li>However profane or vulgar languages will lead to immediate disqualification.
+					</li>
+					<li>Marking criteria: Spontaneity, creativity and humor.
+					</li>
+					<li>Judge’s decision will be final.
+					</li>
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
+					<li>Hariharan: +91 6380759741</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSegqUOkWmRI8pXTIr7Rlr_0VAm-hM0xtArC2AtLvQ3OMEer3w/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSegqUOkWmRI8pXTIr7Rlr_0VAm-hM0xtArC2AtLvQ3OMEer3w/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -1245,12 +1354,12 @@
 			  <div class="row">
 				<div class="col-md-5 " style="padding-top: 10px;"><img src="mixandmake.jpg" alt="recharge" class="img-fluid">
 					<p><b>Online Event</b></p>
-					<p><b>Team size :1</b></p>					
-					<p><b>Registration Fees:</b>100 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Team Size  : </b>1</p>					
+					<p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
-				  <p>Title 
+				  <p><b> Design that leaves a lasting impression. Do you love playing with pixels, colours and backgrounds? </b><br>
+					  Recharge’20 is looking for designers whose designing skills say a story that mesmerizes the eyes of the one looking at. Are you up for showing your skills? Then get your tools ready and come capture the design kingdom  
 					 <br>
 				  </p>
 				 
@@ -1268,13 +1377,13 @@
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpcULRjuoGIeVLkxA9J3ybqBLh-06zFxAFQswvYvr7G3EYmQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfpcULRjuoGIeVLkxA9J3ybqBLh-06zFxAFQswvYvr7G3EYmQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 		</div>
@@ -1294,9 +1403,9 @@
 			  <div class="row">
 				<div class="col-md-5" style="padding-top: 10px;"><img src="poetry.jpg" alt="recharge" class="img-fluid">
 					<p><b>Online Event</b></p>					
-					<p><b>Team size :1</b></p>
-					<p><b>Registration Fees:</b>100 per participant</p>
-					<p><b>Total Cash Prize:</b>Rs. 10,000</p>
+					<p><b>Team Size : </b>1</p>
+					
+					<p><b>Prizes Worth : </b>Rs. 10,000</p>
 				</div>
 				<div class="col-md-7">
 				  <p>
@@ -1310,26 +1419,26 @@
 				  <ul>
 					<li>This is an online event.
 					<li>The theme can be any one of these:<br>
-						1.<i>Days -</i>
-Describe days of the week as if they are a set of people. <br>
-2.<i>Astronomy-</i>
-The stars are beautiful tonight, Saturn is finally showing... I hope Mars doesn't get too jealous. <br>
-3.<i>Feelings-</i>
-Describe the feeling of fear. The catch? You can use only colours,textures and sounds.
-<li>Registration and payment must be done online.
-<li>Plagiarism is not entertained.
-<li>Prizes will be based on the judge's decision and partially based on the number of likes.
+											1.<i>Days -</i>
+					Describe days of the week as if they are a set of people. <br>
+					2.<i>Astronomy-</i>
+					The stars are beautiful tonight, Saturn is finally showing... I hope Mars doesn't get too jealous. <br>
+					3.<i>Feelings-</i>
+					Describe the feeling of fear. The catch? You can use only colours,textures and sounds.
+					<li>Registration and payment must be done online.
+					<li>Plagiarism is not entertained.
+					<li>Prizes will be based on the judge's decision and partially based on the number of likes.
 				  </ul>
 				  <p><b></b></p>
 				  <p><b>Contact :</b></p>
 				  <ol>
-					<li>Subhash: +91 8807181760</li>
+					<li>Subhash: +91 7338993892</li>
 				  </ol>
 				</div>
 			  </div>
 			</div>
 			<div style="padding-bottom: 10px;">
-				<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSerokPNiyLPh_F7Fj6CzLD6mu5kF8FIAIL9al0aroh7PrNVZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSerokPNiyLPh_F7Fj6CzLD6mu5kF8FIAIL9al0aroh7PrNVZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 			</div>
 		  </div>
 	  
@@ -1349,14 +1458,18 @@ Describe the feeling of fear. The catch? You can use only colours,textures and s
 		<div class="modal-body" align="left" style="margin-left: 10px;">
 		  <div class="row">
 			<div class="col-md-5" style="padding-top: 10px;"><img src="futsal.jpg" alt="recharge" class="img-fluid">
-				<p><b>Team size :5</b></p>
-				<p><b>Venue:</b>College Campus</p>
-				<p><b>Date & Time:</b>,10:30 AM</p>
-				<p><b>Registration Fees:</b>100 per participant</p>
-				<p><b>Total Cash Prize:</b>Rs. 20,000</p>
+				<p><b>Team Size  :</b>5</p>
+				<p><b>Venue : </b>College Campus - Turf</p>
+				<p><b>Date & Time : </b>08/03/2020 & 09.03.2020, 10:30 AM</p>
+				<p><b>Registration Fees : </b>600 per team</p>
+				<p><b>Prizes Worth : </b>Rs. 20,000</p>
 			</div>
 			<div class="col-md-7">
-			  <p>Title 
+			  <p><b>Have you been sleepless lately till the dawn? </b> <br>
+				Being obsessed over one thing and really can’t imagine a life without that?
+				Then the reason behind this is definitely love! The love for Football indeed. 
+				With a great team spirit, ready to rage the field and conquer the goal post!
+				
 			  </p>
 			 
 			  <p><b>Rules: </b></p>
@@ -1382,13 +1495,15 @@ Describe the feeling of fear. The catch? You can use only colours,textures and s
 			  <p><b></b></p>
 			  <p><b>Contact :</b></p>
 			  <ol>
-				<li>Subhash: +91 8807181760</li>
+				<li>Subhash: +91 7338993892</li>
+				<li>Mohit: +91 8056030136</li>
+				<li>Sooraj: +91 9092137947</li>
 			</ol>
 			</div>
 		  </div>
 		</div>
 		<div style="padding-bottom: 10px;">
-			<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIVPsnjyWSaTRBfTSZcBW4HejNSdKA4d5LQiih63a2g2A6fA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdIVPsnjyWSaTRBfTSZcBW4HejNSdKA4d5LQiih63a2g2A6fA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 		</div>
 	  </div>
 	</div>
@@ -1408,13 +1523,13 @@ Describe the feeling of fear. The catch? You can use only colours,textures and s
 		  <div class="row">
 			<div class="col-md-5" style="padding-top: 10px;"><img src="videomemes.jpg" alt="recharge" class="img-fluid">
 				<p><b>Online Event</b></p>
-				<p><b>Team size :5</b></p>
-				<p><b>Registration Fees:</b>100 per participant</p>
-				<p><b>Total Cash Prize:</b>Rs. 3,000</p>
+				<p><b>Team Size : </b>5</p>
+				<p><b>Prizes Worth : </b>Rs. 3,000</p>
 			</div>
 			<div class="col-md-7">
-			  <p>Title 
-				 <br>
+			  <p> 
+				<b>It’s said a picture is worth a thousand words, if so, a video could speak beyond imagination. </b><br>
+				Showcase your talent of relevance by compiling a show that would make our bellies battered! 
 			  </p>
 			  
 			  <p><b>Rules: </b></p>
@@ -1422,7 +1537,7 @@ Describe the feeling of fear. The catch? You can use only colours,textures and s
 				<li>This is an online event.
 				<li>No vulgarity or 18+ content is entertained.
 				<li>The entries can only be in English or tamil.
-				<li>Time limit: 1 minute.
+				<li>Duration: 1 minute.
 				<li>Content that would hurt political/religious/communal sentiments are strictly condemned
 				<li>Prizes will be based on the judge's decision and partially based on the number of likes.
 
@@ -1430,13 +1545,13 @@ Describe the feeling of fear. The catch? You can use only colours,textures and s
 			  <p><b></b></p>
 			  <p><b>Contact :</b></p>
 			  <ol>
-				<li>Subhash: +91 8807181760</li>
+				<li>Subhash: +91 7338993892</li>
 			</ol>
 			</div>
 		  </div>
 		</div>
 		<div style="padding-bottom: 10px;">
-			<!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScEkvP06q0sLfAZKWzeZ5oa_nJcoxOboMELDd3ajoyHOAzSZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLScEkvP06q0sLfAZKWzeZ5oa_nJcoxOboMELDd3ajoyHOAzSZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
 		</div>
 	  </div>
 	</div>
@@ -1461,7 +1576,7 @@ Describe the feeling of fear. The catch? You can use only colours,textures and s
               <div class="col-lg-4  col-md-6 col-sm-12">
                 <h3>Contact Us</h3>
                 <ul class="list">
-					<li class="bgtext cont-num" ><i>Secretary</i>-Subhash: +91 8807181760</li>
+					<li class="bgtext cont-num" ><i>Secretary</i>-Subhash: +91 7338993892</li>
 					<li class="bgtext cont-num"><i>Joint Secretary</i>-Srinithi: +91 6385122743</li>
 					<li class="bgtext cont-num">recharge@rajalakshmi.edu.in</li>
 
@@ -1519,6 +1634,11 @@ function topFunction() {
 		$("#"+s[1]).modal('show');
 	}
     console.log(s);
+
+function regLoading()
+{
+	$('#regmodal').modal('show');
+}
 </script>
 </body>
 </html>
