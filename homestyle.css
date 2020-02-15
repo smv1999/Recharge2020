@@ -22,6 +22,9 @@
   background-color:#f6f6f6;  
   border-radius: 30px;
 }
+.navbar{
+  padding:0 ;
+}
 
 @keyframes floating {
   from {
@@ -297,10 +300,10 @@ footer .fa:hover{
 	padding-top: 5px;
   font-size: 10px;
 }
-/* @media screen(768px)
+@media only screen and(max-width: 500px)
 {
   .navbar{
-    padding-left:0px;
-    padding-right:0px; 
+    padding:0px;
+    
   }
-} */
+}
