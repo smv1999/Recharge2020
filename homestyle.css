@@ -288,10 +288,9 @@ footer .fa:hover{
 }
 
 #clockdiv div > span{
-  padding: 15px;
+  padding: 10px;
   font-weight: bold;
   border-radius: 3px;
-  /* width: 30px; */
 	background: #e68d67;
 	display: inline-block;
 }
