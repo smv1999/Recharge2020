@@ -166,8 +166,8 @@
   </button>&nbsp;&nbsp;fast !</h3>
   <center><h3 class="txt-responsive"><button onclick="evtreg();" style="display: none;" 
     type="button" id="evtregister-btn" class="btn">Events Registration</button></h3>
-  <h3 class="txt-responsive"><button onclick="visreg();" style="display: none;" 
-    type="button" id="visitor-btn" class="btn">Visitor's Registration</button></h3>
+  <!-- <h3 class="txt-responsive"><button onclick="visreg();" style="display: none;" 
+    type="button" id="visitor-btn" class="btn">Visitor's Registration</button></h3> -->
 </center>
 </div>
 <br><br>
@@ -620,14 +620,15 @@ function openCalendar()
 }
 function openEvents()
 {
-  if((document.getElementById("evtregister-btn").style.display=="none") && (document.getElementById("visitor-btn").style.display=="none"))
+  if((document.getElementById("evtregister-btn").style.display=="none") )
   {
+    // && (document.getElementById("visitor-btn").style.display=="none")
     document.getElementById("evtregister-btn").style.display="block";
-    document.getElementById("visitor-btn").style.display="block";
+    // document.getElementById("visitor-btn").style.display="block";
   }
   else{
     document.getElementById("evtregister-btn").style.display="none";
-    document.getElementById("visitor-btn").style.display="none";
+    // document.getElementById("visitor-btn").style.display="none";
   }
   
 
