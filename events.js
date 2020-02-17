@@ -89,3 +89,7 @@ $('#myModal24').modal('show');
 function openRules(){
   $('#genrules').modal('show');
   }
+function openSurprise()
+{
+  $('#surprise').modal('show');
+}
