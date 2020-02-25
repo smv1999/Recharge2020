@@ -1,1681 +1,1830 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Recharge'20 -Events</title>
-	<!--Meta Tags-->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Recharge'20 -Events</title>
+    <!--Meta Tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- header icon  -->
-	<link rel="shortcut icon"  href="favicon.ico" />
+    <!-- header icon  -->
+    <link rel="shortcut icon" href="favicon.ico" />
 
-	<!-- CSS Link tags-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"><!--font awesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css" href="CSS/footerdesign.css">
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="CSS/pos.css">
+    <!-- CSS Link tags-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="CSS/footerdesign.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/pos.css">
 
-	<link rel="stylesheet" href="homestyle.css">
-	<link rel="stylesheet" href="eventstyle.css">
-	
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="eventstyle.css">
+
 </head>
+
 <body onload="regLoading();">
-<nav class="navbar sticky navbar-expand-lg navbar-light" style="background-color: #FFFFFF;">
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-	  <span class="navbar-toggler-icon"></span>
-	</button>
-	<a class="navbar-brand img-responsive" href="home.html"><img src="editedlogo.png" height="62" width="120"></a>
-  
-	<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-	  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-		<li class="nav-item"><button class="btn headerfont"><a class="active nav-link" href="home.html"><b class="fontcolor">Home</b></a></button></li>
-		<li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="home.html#about"><b class="fontcolor">About Us</b></a></button></li>
-		<!-- <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="sponsors.html"><b class="fontcolor">Sponsors</b></a></button></li> -->
-		<li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="home.html#gallery"><b class="fontcolor">Gallery</b></a></button></li>
-		<li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="#contact"><b class="fontcolor">Contact</b></a></button></li>
-	  </ul>
-	</div>
-	<a class="navbar-brand img-responsive" ><img src="rilogo.jpg" height="30"></a>
-  </nav>
-<br><br>
-<br><br>
-<center><img class="img-responsive floating" src="recharge logo.png" height="250" alt="Recharge" ></center>
-
-<div id="events" class="container-fluid text-center bg-white"> 
-	<!-- bg-white -->
-	<h2>EVENTS</h2><br>
-	<center><button type="button" class="btn" id="register-btn" onclick="openRules();">General Rules</button></center><br>
-	<i style="font-family: 'Questrial', sans-serif; font-size: 25px;">Register For Events</i><br>
-	<br>
-	<div class="row text-center">
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="solodance.jpg" onclick="modal1();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Swing and Style</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="solomusic.jpg" onclick="modal2();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Breaking Records</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="dualdance.jpg" onclick="modal3();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Double Dice</b><br><br>
-		</div>
-	  </div>
-	  
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="groupdance.jpg" onclick="modal4();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Chorus Feet</b><br><br>
-
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img  class="img-responsive" src="soloinstrumental.jpg" onclick="modal5();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Tune Your Strings</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="musicbands.jpg" onclick="modal6();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Philharmonic</b><br><br>
-		</div>
-	  </div>
-	  
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img  class="img-responsive" src="rapandbeatbox.jpg" onclick="modal7();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Alienated</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="adzap.jpg" onclick="modal8();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Merchant-ize</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="channelsurfing.jpg" onclick="modal9();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Remote Surfing</b><br><br>
-		</div>
-	  </div>
-	 
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="shipwreck.jpg" onclick="modal10();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Castaway</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="fifa.png" alt="Recharge" onclick="modal11();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Dribble Trouble</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img  class="img-responsive" src="photography.jpg" alt="Recharge" onclick="modal12();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Shutter Bug</b><br><br>
-
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="callofduty.jpg" alt="Recharge" onclick="modal13();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Call Of Duty</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="facepainting.jpg" alt="Recharge" onclick="modal14();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">DisguiseD!</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="variety.jpg" alt="Recharge" onclick="modal15();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Melange</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="fashionwalk.jpg" alt="Recharge" onclick="modal16();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">En Vogue</b><br><br>
-
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="voiceover.jpg" alt="Recharge" onclick="modal18();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Mimic the Gimmick</b><br><br>
-
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img  class="img-responsive" src="radiojockey.jpg" alt="Recharge" onclick="modal19();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Radio Joke-is-Key</b><br><br>
-<br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="mixandmake.jpg" alt="Recharge" onclick="modal21();" width="400" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Pixelize</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="poetry.jpg" alt="Recharge" width="400" onclick="modal22();" height="300" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Professor Quill</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="futsal.jpg " alt="Recharge" width="400" height="300" onclick="modal23();" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Futsal</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="videomemes.jpg" alt="Recharge" width="400" height="300" onclick="modal24();" style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Cameo</b><br><br>
-		</div>
-	  </div>
-	  <div class="col-sm-4">
-		<div class="thumbnail">
-		  <img class="img-responsive" src="mysteryevent.jpg" alt="Recharge" onclick="openSurprise();" width="400" height="300"  style="border-radius: 25px;"><br>
-		  <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Surprise Events</b><br><br>
-		</div>
-	  </div>
-	</div><br>
-
-
-	<!-- surprise events -->
-	<div id="surprise" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Surprise Events</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-12" style="padding-top: 10px;">
-					<b>To be revealed soon!</b><br>
-				</div>
-			  </div>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-
-       <!-- Rules  -->
-
-	<div id="genrules" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">General Rules</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-12" style="padding-top: 10px;">
-					<ul>
-						<li> Participants must bring their student IDs, without which they’ll not be allowed to enter the fest.</li>
-						<li> Verification will be done at the registration desk.</li>
-						<li> Students can participate in more than one event.</li>
-						<li> Registrations and payment must be done online for specific events.</li>
-						<li> Last date for online registrations is March 5th.</li>
-						<li> Accommodation, if required must be intimated during registration.</li>
-						<li> Participants are requested to report to the venue at least half an hour before the event.</li>
-						<li> Any form of vulgarity or violation of rights will not be entertained.</li>
-						<li> Students should strictly abide by the rules and regulations of the event.</li>
-					</ul>
-				</div>
-			  </div>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-
-	<!-- Swing n Style -->
-
-	<div id="myModal1" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center	;">Swing and Style - Find your step and lose yourself</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5" style="padding-top: 10px;"><img src="solodance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>1</p>
-					<p><b>VENUE : </b> Side stage</p>
-					<p><b>Date & Time : </b>09/03/2020 , 1:30 PM</p>
-					<p><b>Duration : </b>3 mins/participant</p>
-					<p><b>Registration Fees : </b>Rs.150 per participant</p>
-
-				   
-					<p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>“Dance is the ultimate expression of the soul”</b><br>
-					Open invitation to all those who enjoy tapping their feet to the beat and expressing themselves in ways only dance can capture.
-					 Come join us for the ultimate dancing competition!					 
-					 <br>
-				  </p>
-				 
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Any dance styles/forms are welcome.</li>
-					<li>For first level screening, the link for the videos have to be submitted at 
-						the time of online registration (Videos of past performances are accepted.)</li>
-					<li>Shortlisted participants will be intimated through mail and the payment 
-						link will be sent through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
-						 It should be under the participant’s possession, in a pen-drive, and submitted
-						  to the event in-charge 30 minutes before the commencement of the event.</li>
-					<li>The songs chosen, costumes and the movements should be decent.</li>
-					<li>Judge’s decision will be final.</li>
-					
-				  </ul>
-				  
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>					
-					<li><a href="tel:7358323402"> Tamizh: +91 7358323402</a></li>
-					<li><a href="tel:6380789510"> Monica: +91 6380789510</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLScv80GsnK30m_GJ7raIxpkB4Y1yOBxtJcRENz1cTUTmG3DTLA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
- 
-	
-	  <!-- Breaking Records -->
-	  <div id="myModal2" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Breaking Records - Set new Re-Chords.</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5" style="padding-top: 10px;"><img src="solomusic.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>1</p>
-					<p><b>VENUE : </b>Seminar Hall</p>
-					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
-					<p><b>Registration Fees : </b>Rs.150 per participant</p>
-
-				  <p><b>Duration : </b>3 mins/participant</p>
-				  <p><b>Prizes Worth : </b>Rs. 10,000</p>	
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>“Music is to the soul what words are to the mind” </b><br>
-					Step out of your bounds as you bring out the hidden potential and carry us away with your vocal flair.			
-					 <br>
-				  </p>
-				  
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>The participants can choose to perform on any genre of music.</li>
-					<li>The participants can use karaoke backing tracks, if any, and the same
-						 should be submitted to their respective event in-charge, 30 minutes
-						  before the commencement of the event or they can be accompanied by
-						   maximum of two instruments.</li>
-					<li>For first level screening, the link for the videos must be submitted
-						 at the time of online registration (Videos of past performances are accepted.)</li>
-					<li>Shortlisted participants from this first level will be intimated through mail and
-						 will receive the payment link through the same. </li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>The songs chosen for the performance on stage should be decent. </li>
-					<li>Judge’s decision will be final.</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:9840750477">Rakshana: +91 9840750477</a></li>
-					<li><a href="tel:9176547356">Aakash Nair: +91 9176547356</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdu0LpWQB7_nt0_KT3sCWxVCaFPCrsyHqk9HcZuM6LH87S9CA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
- 
-	  <!-- Dual Dance  -->
-
-	  <div id="myModal3" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Double Dice - Double the feet, double the fun</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5" style="padding-top: 10px;"><img src="dualdance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>2</p>
-					<p><b>Venue : </b>Side Stage</p>
-					<p><b>Date & Time : </b>08/03/2020 , 12:00 PM</p>
-					<p><b>Registration Fees : </b>Rs.300 per team</p>
-
-				  <p><b>Duration : </b>3 mins/group</p>
-				  <p><b>Prizes Worth : </b>Rs. 20,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p >
-					<b>“Why walk when you can dance?”</b><br>
-					Synchronize with style as you and your partner set the stage on fire. 
-					Embrace the beat as you sway us with your power moves and compete for the title for the ultimate dynamic duo. 
-					 <br>
-				  </p>
-				  
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Any dance styles/forms are welcome.</li>
-					<li>Cross teams are allowed.</li>
-					<li>Only one person per team must register.</li>
-					<li>For first level screening, the link for the
-						 videos must be submitted at the time of online
-						  registration (Videos of past performances are accepted).</li>
-					<li>Shortlisted teams from this first level will be intimated 
-						through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>The second level of screening will be on the day of the event (8th March).</li>
-					<li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
-						 It should be under the participant’s possession, in a pen-drive, and submitted 
-						 to the event in-charge 30 minutes before the commencement of the event.</li>
-					<li>The songs chosen & costumes should be decent.</li>
-					<li>After two levels of screening, the shortlisted participants will enter the finals (Adaptune)</li>
-					<li>Judge’s decision will be final.</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					
-					<li><a href="tel:7358442069"> Nivedha: +91 7358442069</a></li>
-					<li><a href="tel:7010870052"> Rohit: +91 7010870052</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfMf4hIaPewmMAI2KYAFAFR0AOcecpuezKUauqkc2KKqMWpWw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-
-	  <!-- Group Dance -->
-
-	  <div id="myModal4" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Chorus Feet - Synchronize with style.</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="groupdance.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>8-20</p>
-					<p><b>Venue : </b> Main stage</p>
-					<p><b>Date & Time : </b>09/03/2020 , 10:00 AM</p>
-					<p><b>Registration Fees : </b>Rs.800 per team</p>
-
-				  <p><b>Duration : </b>1 + 3 mins/group</p>
-				  <p><b>Prizes Worth : </b>Rs. 35,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>“Dancers don’t need wings to fly!”</b><br>
-					 Only creative expression and an iron will to dazzle their audience.
-					  Rally your crew and prepare to stun as you enthral the crowd using
-					   the rhythm of feet. Engage and make us experience the ecstacy of dance.
-					 <br>
-				  </p>
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Cross teams are allowed.</li>
-					<li>Only one person per team must register.</li>
-					<li>For first level screening, the link for the
-						 videos must be submitted at the time of online registration 
-						 (Videos of past performances are accepted).</li>
-					<li>Shortlisted teams from this first level will be intimated
-						 through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
-						 It should be under the participant’s possession, in a pen-drive, and submitted to
-						  the event in charge 30 minutes before the commencement of the event.</li>
-					<li>The songs chosen & costumes should be decent.</li>
-					<li>Judge's decision will be final.</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					
-					<li><a href="tel:7338887883"> Roshini: +91 7338887883</a></li>
-					<li><a href="tel:7550149419"> Harish: +91 7550149419</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdXYf1QVqVg0DWbAna-gV53dJ96vYxVc5pf95bc3HUDq2WHCA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
- 
-
-	  <!-- Solo Instrumental -->
-
-	  <div id="myModal5" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Tune Your Strings - Vibe like the Pied Piper</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="soloinstrumental.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>1</p>
-					<p><b>Venue : </b>Seminar Hall</p>
-					<p><b>Date & Time : </b>09/03/2020 , 10:30 AM</p>
-					<p><b>Duration : </b>3 mins/participant</p> 
-					<p><b>Registration Fees : </b>Rs.150 per participant</p>
-
-					<p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					Do you mesmerize people with your tunes? Show your skills and drench us with 
-					your spellbinding music. This is your platform to display your profound acoustic talent. 
-					 <br>
-				  </p>
-				  			 
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Participants should bring their own instruments.</li>
-					<li>Participants are required to set up instruments without any delay.</li>
-					<li>For first level screening, the link for the videos must be submitted at the time of online registration (Videos of past performances are accepted.)</li>
-					<li>Shortlisted participants from this first level will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>A 5 Piece Drum kit will be provided.</li>
-					<li>Judge's decision will be final.</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:8610587144"> Kaushik: +91 8610587144</a></li>
-					<li><a href="tel:9080013077"> Subashini: +91 9080013077</li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSeUGupf6wX2Hq6WFfzZNH-hdcLJ-6suRmyHK-LKbrEmXWDZlA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
- 
-
-	  <!-- Music Bands  -->
-	  <div id="myModal6" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Philharmonic - Play your way to stardom</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="musicbands.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>3-10</p>
-					<p><b>Venue : </b>Main Stage</p>
-					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
-					<p><b>Duration : </b>5 + 10 mins/group</p>
-					<p><b>Registration Fees : </b>Rs.800 per team</p>
-
-					<p><b>Prizes Worth : </b>Rs. 35,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p> 
-					Ever wanted to do a symphony in front of a huge audience? 
-					Are you ready to conquer the arena with your chords? Assemble your band and battle it out with your sticks and strings.
-					 <br>
-				  </p>
-				 
-				 
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Open teams are allowed.</li>
-					<li>Only one person per team must register.</li>
-					<li>For first level screening, the link for the videos must
-						 be submitted at the time of online registration (Videos of past performances are accepted).</li>
-					<li>Shortlisted teams from this first level will be intimated through mail and will receive the payment
-						 link through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>Participants should bring their own instruments.</li>
-					<li>The songs to be performed on stage must be only in English and Indian languages.</li>
-					<li>A standard 5 piece drum kit with one bass amplifier and guita
-					<li>Any form of vulgarity will not be entertained and the judges have the rights to disqualify the band
-						in case of any.
-					</li>
-					<li>Judge's decision will be final.</li>
-
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:8825725332"> Karthik Shanker: +91 8825725332</a></li>
-					<li><a href="tel:6369122317">Jeba Samuel: +91 6369122317</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLScNxa-clGKHNLEXR30-rIjPSuJGvD8UTU1m2Kx5mVwAgjl10w/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
- 
-
-	  <!-- rapandbeatbox -->
-	  <div id="myModal7" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Alienated - Raid the rhythm</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="rapandbeatbox.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>2</p>
-					<p><b>Venue : </b>Side Stage</p>
-					<p><b>Date & Time : </b>08/03/2020 , 02:00 PM</p>
-				  <p><b>Duration : </b>3 mins/group</p>
-				  <p><b>Registration Fees : </b>Rs.150 per participant</p>
-				  <p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>“Rap is poetry with a beat”</b><br>
-					 Are you infamously known as your college’s Slim Shady or Doug E. Fresh . Then, Grab the opportunity to prove that you are a human 
-					 beat boxing machine and can win the time over words.
-					 <br>
-				  </p>
-				  
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Cross teams are allowed.</li>
-					<li>Only one person per team must register.</li>
-					<li>Team should consist of a rapper and a beatboxer.</li>
-					<li>For first level screening, the link for the 
-						videos must be submitted at the time of online registration 
-						(Videos of past performances are accepted).</li>
-					<li>Shortlisted teams from this first level will be 
-						intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judge's decision will be final.</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:6380759741">Hariharan: +91 6380759741</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfTijcaZRSERUQm4qJxPSzYwjSoiD5XVHK86vA88jqxMgY7OQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-		</div>
-	  </div>
- 
-
-	  <!-- adzap -->
-	  <div id="myModal8" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Merchant-ize - Marketing madness personified </h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="adzap.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>5-7</p>
-					<p><b>Venue : </b>Side Stage</p>
-					<p><b>Date & Time : </b>08/03/2020 , 10:00 AM</p>
-					<p><b>Duration : </b>3 mins/group</p>
-					<p><b>Registration Fees : </b>Rs.100 per participant</p>
-					<p><b>Prizes Worth : </b>Rs. 20,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					Do you have the knack for pitching ideas for your product?  
-					Unleash your retailing capability and showcase your brand in the world stage!					 
-					 <br>
-				  </p>
-				  
-				 
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Cross teams are allowed.</li>
-					<li>Only one person per team must register.</li>
-					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
-					<li>The first 10 registrations will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judge’s decision will be final.</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:9940074877">Shampavi: +91 9940074877</a></li>
-					<li><a href="tel:7358616689">Thyagarajen: +91 7358616689</a></li>
-
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSf6ysuSDqe_kWqSUMQ387vTrSV14EF0NmjPHmVmh7GsStYkLw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
- 
-
-	  <!-- channelsurfing -->
-	  <div id="myModal9" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Remote Surfing - I’ll be watching you </h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="channelsurfing.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>4-6</p>
-					<p><b>Venue : </b>Side Stage</p>
-					<p><b>Date & Time : </b>09/03/2020 , 10:00 AM</p>
-				  <p><b>Duration : </b>3 mins/group</p>
-				  <p><b>Registration Fees : </b>Rs.150 per participant</p>
-				  <p><b>Prizes Worth : </b>Rs. 20,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					Reactive to infrared rays? You can’t stop the waves but you can learn 
-					to surf! Be our TV and bring to life the characters, as we surf through the channels. 
-					 <br>
-				  </p>
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Cross teams are allowed.</li>
-					<li>Only one person per team must register.</li>
-					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
-					<li>The first 10 teams to register will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judge's decision will be final.</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:+91 9962285188" >Sidharth: +91 9962285188</a></li>
-					<li><a href="tel:9042849002">Mohit: +91 9042849002</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLScec-Jw0yrQHEGQRdL57PlBNAi70DNbB5RvJmd5t6A7IvFudw/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-
-	  <!-- shipwreck -->
-	  <div id="myModal10" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Castaway - Seas the jacket</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="shipwreck.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>1</p>
-					<p><b>Venue : </b>Seminar hall</p>
-					<p><b>Date & Time : </b>08/03/2020 , 12:00 PM</p>
-					<p><b>Duration: </b>2 mins</p>
-					<p><b>Registration Fees : </b>Rs.150 per participant</p>
-					<p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>“A quest of survival becomes the adventure of a life time”</b><br>
-					 How good at you at persuading? Get ready to delve into the lives of personalities and seas the opportunity to save yourself! 
-					 <br>
-				  </p>
-				 
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
-					<li>The first few 10 participants to register will be intimated through mail and will receive the payment link through the same.</li>
-					<li>Payment must be completed online via the link before the given deadline.</li>
-					<li>Any form of vulgarity will lead to disqualification.</li>
-					<li>Judges’ decision will be final.</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:9940023499">Srivats: +91 9940023499</a></li>
-					<li><a href="tel:7092198661">Keerthana: +91 7092198661</a></li>
-
-
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSc_Ny4KTnhXxResLarjsdl0bWaDFY1-4nhPl-vCnnFaeEkRdg/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-	  <!-- fifa -->
-	  <div id="myModal11" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Dribble Trouble</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="fifa.png" alt="recharge" class="img-fluid">
-					<b>On spot Registration</b>
-					
-				  <p><b>Team Size : </b>1</p>
-				  <p><b>Venue : </b>Tech Lounge</p>
-				  <p><b>Date & Time : </b>09/03/2020 , 11:00 AM</p>
-				  <p><b>Registration Fees : </b>Rs.200 per participant</p>
-				  <p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>“Life’s great with football” isn’t it? </b><br>
-					It’s time to bring the match home and to your hands. Join us and showcase your FIFA skills. 
-					 <br>
-				  </p>
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>It is an individual event.</li>
-					<li>Registration and payment must be done onspot.</li>
-					<li>Participants must be present in the room while playing.</li>
-					<li>Participants will be provided PCs and controllers. The participants 
-						can also bring their own controllers or use the keyboard as per their wish.
-						 It is the responsibility of all players to be familiar with the controller’s 
-						 functions and mode of operation.</li>
-						 <li>You CANNOT pause the game unless the game is stopped i.e. if it’s a throw in or ball is in your own keeper’s possession. If you pause the game intentionally, you may be warned or disqualified at referee’s discretion. Second warning will disqualify you automatically. You have 40 seconds after the pause.</li>
-					<li>The game will begin only after the referee confirms all settings are according to the rules.</li>
-					<li>In case of any kind of unfortunate event or disconnection, disc error or electricity failure, the score will remain the same regardless of game played but the half in which the problem occurred will be played again.</li>
-					<li>If the regular time results end in a draw, then the winner will be decided through penalties without extra time.</li>
-					<li>Misconduct during the tournament will disqualify the entire team.</li>
-				  </ul>
-				  <p><b>In Game Rules:</b></p>
-				  <li> Half-time of 4 minutes with difficulty level of AI controlled players at 'Legendary' 2. You can use and customize any tactics but only at the beginning of the game.
-					<li> All matches will be CLASSIC kick-off matches only.
-					<li> NO Timed Shot with all other controls at 'Semi-Assisted'.
-					<li> Tactical defending mode only.
-					<li> You CANNOT select any fictional or All-Star teams. Any regular season teams, as installed with the original game, can be selected.
-					<li> You are only allowed to choose a CLUB team against another CLUB team and an INTERNATIONAL team against an INTERNATIONAL team.
-				  <li> Choice is provided to winner of TOSS
-				  <li> Both Players CAN select the same team.
-				  <li> At the end of regular time, if the match ends in a draw, the winner will be decided through penalties without proceeding to EXTRA TIME.
-				  <li> Selecting Preset formations (4-3-3 or 4-4-2 etc) are allowed before the match starts.
-				  <li> Once the match has started, players can pause the game to change strategy, tactics and/or formation ONLY when (i)The ball is out of play or during setpieces. (But formation change is not allowed) (ii) a player of his team is sent off (iii) a player of his team is injured.
-				  <li> Set pieces are available. Man Marking and Injuries are allowed.
-				  <li> No handball
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:8870413136">Sriram: +91 8870413136</a></li>
-					<li><a href="tel:8015275654">Sujith: +91 8015275654</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-	  <!-- photography -->
-	  <div id="myModal12" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Shutter Bug - Live through the lens</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="photography.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>1</p>
-					<p><b>Venue : </b>COLLEGE CAMPUS</p>
-					<p><b>Date & Time : </b>08/03/2020 , 10:30 AM</p>
-					<p><b>Registration Fees : </b>Rs.200 per participant</p>
-					<p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					No place is boring, if you’ve had a good night’s 
-					sleep and have a pocket full of unexposed film. Presenting you the opportunity to capture/freeze the moment . 
-					 <br>
-				  </p>
-				 
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li> Theme will be given On-Spot.
-					<li> Participants should bring their own Camera. The participants must submit their best picture (only one entry) before the end of the event to the judge.
-						 Further information will be provided on the day of the event.
-					<li>Mobile photography is strictly prohibited.</li>
-					<li> Photos should be in JPEG format.
-					<li>Only basic color corrections allowed.</li>
-					<li> Strictly no plagiarism.
-					<li> Photographs are strictly restricted within the campus boundaries.
-					<li> Judge’s decision will be final.
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:7358299819">Hefwin : +91 7358299819</a></li>
-				</ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSePjLDU28QKBg_bb0yilMRsfxPSXc3SQC1As32zgQsMyJualA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-	  <!-- callofduty -->
-	  <div id="myModal13" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Call Of Duty - War Machine</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="callofduty.jpg" alt="recharge" class="img-fluid">
-				  <b>On spot Registration</b> <br>
-				  <p><b>Team Size : </b>1</p>
-				  <p><b>Venue : </b>Tech Lounge</p>
-				  <p><b>Date & Time : </b>08/03/2020 , 11:00 AM</p>
-				  <p><b>Registration Fees : </b>Rs.200 per participant</p>
-				  <p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p> 
-					<b>Do people mistake you for a bot on multiplayer?</b><br>
-					Think you’re dexterous enough to own the server ?
-					Its time for your troops to be deployed. Grab your weapon!					
-					 <br>
-				  </p>
-				  
-				  <p><b>Tournament Rules: </b></p>
-				  <ul>
-					<li>Teams much register as 4 member squad with no substitutes.</li>
-					<li>Participants without a team will be grouped on spot with other individual members </li>
-					<li>Participants should be present in the room while playing.</li>
-					<li>Players must bring their own mobiles and chargers if necessary for the tournament. </li>
-					<li>Online registrations only. No on spot registration entertained. </li>
-					<li>Payment must be made as a team and not as individual members. </li>
-					<li>Room ID will be provided only after registrations have been verified</li>
-					<li>Participants UID will be verified before the start of the tournament. </li>
-					<li>Teams must be present at the room before 15 minutes of the tournament commencement. </li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Game Rules: </b></p>
-				  <ul>
-					  <li>Players must choose their classes: medic, scout, clown, ninja, defender, mechanic and inform the coordinators the same before the beginning. Any changes from the mentioned classes while in-game will result in disqualification of the team.</li>
-					  <li>Emulators are strictly not allowed and the team will be disqualified if found. </li>
-					  <li>Mod APKs, Rooted devices are strictly prohibited. </li>
-					  <li>Bugs and glitches may not be exploited to your advantage. If found, the team will be disqualified</li>
-					  <li>Misconduct during the tournament will disqualify the entire team. </li>
-					  <li>Players must refrain from using offensive language. </li>
-					  <li>Referees decision will be final under any circumstances.</li>
-				  </ul>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:9944190899">Md. Amja: +91 9944190899</a></li>
-					<li><a href="tel:7397488287">Swetha: +91 7397488287</a></li>
-
-				  </ol>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </div>
-
-	  <!-- facepainting -->
-	  <div id="myModal14" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">DisguiseD! - Mask like a maverick</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="facepainting.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>2</p>
-					<p><b>Venue : </b>Seminar Hall</p>
-					<p><b>Date & Time : </b>08/03/2020 , 03:30 PM</p>
-				  <p><b>Duration :  </b>60 mins/team</p>
-				  <p><b>Registration Fees : </b>Rs.150 per participant</p>
-				  <p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>A picture is a poem without words ! </b><br>
-					Are you the person with the talent of turning a canvas into an artistic wonder ? 
-					then this is your stage to create something which cannot be explained but only experienced. Lose yourself and drown in the colours of artistry !
-					 <br>
-				  </p>
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-				
-				<li> The facepainting should be in any one of the following themes: Tribal art, Horror, Patterns.
-				<li> Participants can choose any one theme from the above.
-				<li> Registrations and payment must be done online within the given deadline.
-				<li> Required materials must be brought by the participants.
-				<li> Judge's decision will be final.
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:9952594533">Janani: +91 9952594533</a></li>
-					<li><a href="tel:9080037354">Durga: +91 9080037354</a></li>
-
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSf_CXQozeFjr1d1yIkXgZ5_A52q0X02oLFkS-UlTNOswOwaww/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-	  <!-- variety -->
-	  <div id="myModal15" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Melange</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="variety.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>4-12</p>
-					<p><b>Venue : </b>Main Stage 
-					</p>
-					<p><b>Date & Time : </b>08/03/2020 , 03:30 PM</p>
-				  <p><b>Duration : </b>3 + 10 mins/group</p>
-				  <p><b>Registration Fees : </b>Rs.200 per participant</p>
-				  <p><b>Prizes Worth :</b>Rs. 30,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>Variety’s the very spice of life that gives it all its flavour!</b><br>
-					Have you always wanted to shout to the world a message, not with 
-					words but with an act? Grab your skills and indulge in any form of art and hook us to it!				   
-					 <br>
-				  </p>
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Participants must bring their own sound tracks, in a pendrive,if needed.</li>
-					<li>The sound tracks should be given to the event in-charge 30 minutes before the event commences. </li>
-					<li>Incase of violation of the time limit,offensive,obscene or disrespectful actions, 
-						the team will be disqualified.
-					<li>	The participants should be atleast 30 mins prior to the event.
-					<li>	The points will be awarded on the basis of innovation, teamwork,and creativity.
-					<li>	Any performance of the participant's choice - Magic,puppet,shadow,mime, street play
-						can be performed.
-					<li>	Props can be used but explosives are not entertained. 
-						<li>Judge's decision will be final.</li>
-
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:6380668043">Ganesh: +91 6380668043</a></li>
-					<li><a href="tel:7338792093">Bavish: +91 7338792093</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSejNpgEMLwQdNfZNUcfQvtD7S7bWflsWsOk4jOQF0oafoAXCg/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-	  <!-- fashionwalk -->
-	  <div id="myModal16" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">En Vogue - Seize the show </h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="fashionwalk.jpg" alt="recharge" class="img-fluid">
-					<!-- <p><b>Team Size : : </b>1</p> -->
-					<p><b>Team Size : </b>5-8</p>
-					<p><b>Venue : </b>Main Stage</p>
-					<p><b>Date & Time : </b>09/03/2020 , 01:30 PM</p>
-					<p><b>Registration Fees : </b>Rs.150 per participant</p>
-					<p><b>Prizes Worth :</b>Rs. 50,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>Style is a reflection of your personality and attitude!</b><br>
-					Are you the person who has the confidence to showcase yourself? Then Create your own visual style ,let it be unique and yet identifiable for others.
-					People will stare , make it worth a while !
-					 
-					 <br>
-				  </p>
-				 
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>Time limit : 10 mins (including stage set up)
-					<li>Each member of the team should strictly follow the theme : Fusion of cultures. 
-					<li> Since the registration is based on first come first served, the registration link will be open for a limited time. 
-					<li> The first 10 registrations will be intimated through mail and the payment link will be given through the same.
-					<li> For first round of screening,judgement will be based on costumes, delivery of the theme ,walking stance and attitude.
-					<li> The shortlisted participants from this first level will go to the finals. The judgement is based on the talent exhibited by the participant and also the answer  to the questions asked by the judges. 
-					<li> Music tracks should be submitted, in a pendrive, to the student in-charge 30 mins before the event commences. 
-					<li> Offensive behavior & vulgarity may lead to disqualification. 
-					<li> Negative marks are allotted if the time limit is exceeded. 
-					<li> All costumes are permitted, which maintain decency. 
-					<li> Use of accessories  such as fire, animals, explosives and colour must be avoided. 
-					<li>Judge's decision will be final.
-				</ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:9677047666">Md. Ashiq: +91 9677047666</a></li>
-					<li><a href="tel:7305229294">Ishika: +91 7305229294</a></li>
-
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSd4BlOx-n1tjetQKWzfOZCXdqUWJ2-cGJ4ETB7r_oz89UXLZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-	  <!-- If any new events to be added -->
-
-
-	  <!-- voiceover -->
-	  <div id="myModal18" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Mimic the Gimmick - Lip syncing gone wild! </h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="voiceover.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size : </b>1</p>
-					<p><b>Venue : </b>Seminar Hall</p>
-					<p><b>Date & Time : </b>09/03/2020 , 01.30 PM</p>
-				  <p><b>Duration : </b>3 mins/participant</p>
-				  <p><b>Registration Fees : </b>Rs.150 per participant</p>
-				  <p><b>Prizes Worth : </b>Rs. 3,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>Humour is laughing at what you haven’t got when you ought to have it.</b><br>
-					Are there times when all you can think about is ,how to make the situation funny? 
-					Show up and twist other people’s words by giving them a voice over					 
-					 <br>
-				  </p>
-				  
-				  <p><b>Rules: </b></p>
-				  <ul>
-	
-				<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.
-				<li>The first few 15 participants to register will be intimated through mail and will receive the payment link through the same.
-				<li>Payment must be completed online via the link before the given deadline.
-				<li>However profane or vulgar languages will lead to immediate disqualification.
-				<li>Marking criteria: Spontaneity and  humor.
-				<li>Judge’s decision will be final.
-
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:9600194521">Ajath: +91 9600194521</a></li>
-					<li><a href="tel:9363346700">Panbalan: +91 9363346700</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGAIjwzScCjhiyFDfYiNOivgBQa6DWr08mlp8r0h6_I610YQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-	  <!-- radiojockey -->
-	  <div id="myModal19" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Radio Joke-is-Key</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="radiojockey.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size  : </b>1</p>
-					<p><b>Venue : </b>Side Stage</p>
-					<p><b>Date & Time : </b>09/03/2020 , 11:30 AM</p>
-					<p><b>Duration : </b>3 mins</p>
-					<p><b>Registration Fees : </b>Rs.150 per participant</p>
-					<p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p> 
-				<b>	Spontaneity and rapidity are the linchpins for a triumphant Radio Jockey!</b> <br>
-					Are you the person full of enthusiasm who never gets exhausted for speaking round the clock? Recharge’20 is looking for a proficient RJ. If you’re spontaneous, smart and having a brilliant sense of humour, buckle up to grab the pipe bomb because you could be the One!
-					
-				  </p>
-				
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li> Theme will be given on-spot.
-					</li>
-					<li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
-					<li>The first few 15 participants to register will be intimated through mail and will receive the payment link through the same.
-					</li>
-					<li>Payment must be completed online via the link before the given deadline.   	Participants can express themselves in both languages’ Tamil and English.
-					</li>
-					<li>However profane or vulgar languages will lead to immediate disqualification.
-					</li>
-					<li>Marking criteria: Spontaneity, creativity and humor.
-					</li>
-					<li>Judge’s decision will be final.
-					</li>
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					
-					<li><a href="tel:9840703211">Vaishnavi: +91 9840703211</a></li>
-					<li><a href="tel:9940532305">Roshika: +91 9940532305</a></li>
-
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSegqUOkWmRI8pXTIr7Rlr_0VAm-hM0xtArC2AtLvQ3OMEer3w/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-	 <!-- Any new events to be added  -->
-
-
-	  <!-- mixandmake -->
-	  <div id="myModal21" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary">
-			  <h4 class="modal-title" style="text-align: center;">Pixelize - Blend to perfection</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5 " style="padding-top: 10px;"><img src="mixandmake.jpg" alt="recharge" class="img-fluid">
-					<p><b>Team Size  : </b>1</p>
-					<p><b>Venue : </b>Tech Lounge</p>
-					<p><b>Date & Time : </b>08/03/2020 , 01:00 PM</p>
-					<p><b>Duration : </b>60 mins</p>
-					<p><b>Registration Fees : </b>Rs.150 per participant</p>
-					<p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p><b> Design that leaves a lasting impression. Do you love playing with pixels, colours and backgrounds? </b><br>
-					  Recharge’20 is looking for designers whose designing skills say a story that mesmerizes the eyes of the one looking at. Are you up for showing your skills? Then get your tools ready and come capture the design kingdom  
-					 <br>
-				  </p>
-				 
-				  <p><b>Rules: </b></p>
-				  <ul>
-				
-					<li>Registration and payment must be done online before the given deadline.
-				
-					<li>Judging criteria : creativity, innovation and uniqueness.
-					
-					<li>Participants can bring their own laptops.
-
-					<li>If you are not comfortable with the equipments we provide (mouse and keyboard), you can bring your own trackpad,stylus etc but should get approval before the contest.</li>
-
-		
-
-					<li>Your entry should not have elements that would likely be offensive to the majority of people who see it.</li>
-					<li>Your entry should not have elements that are not safe for work(hate crimes, blurred out porn, injury, sickness, obscene gestures).</li>
-					<li>Your entry should not contain children for which you personally do not have a model release. 
-
-					<li>Your entry should not contain material that you don't have the legal right to use.
-
-					<li>You cannot change an insignificant part of an otherwise outstanding image that you didn't create
-						 (regardless of whether you had permission and/or credit it appropriately).
-
-					<li>Your entry should not be a re-creation (source for source) of an existing photo manipulated image or tutorial.
-
-					<li>Your entry should not contain someone else’s material that you did have a legal right to use.
-
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:7010551045">Sathyanarayanan: +91 7010551045</a></li>
-					<li><a href="tel:9840618129">Shailesh: +91 9840618129</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfpcULRjuoGIeVLkxA9J3ybqBLh-06zFxAFQswvYvr7G3EYmQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-		</div>
-	  </div>
-
-	  <!-- poetry -->
-	  <div id="myModal22" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-lg" >
-	  
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header alert-primary ">
-			  <h4 class="modal-title" style="text-align: center;">Professor Quill - Pen down the panorama</h4>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body" align="left" style="margin-left: 10px;">
-			  <div class="row">
-				<div class="col-md-5" style="padding-top: 10px;"><img src="poetry.jpg" alt="recharge" class="img-fluid">
-					<p><b>Online Event</b></p>					
-					<p><b>Team Size : </b>1</p>
-					
-					<p><b>Prizes Worth : </b>Rs. 10,000</p>
-				</div>
-				<div class="col-md-7">
-				  <p>
-					<b>A poet can survive everything but a misprint!</b><br>
-					Penning down your emotions and thoughts is the capability to attain eternity . 
-					Grab your quill and redefine literature. 					 
-					 <br>
-				  </p>
-				 
-				  <p><b>Rules: </b></p>
-				  <ul>
-					<li>This is an online event.
-					<li>The theme can be any one of these:<br>
-											1.<i>Days-</i>
-					Describe days of the week as if they are a set of people. <br>
-					2.<i>Astronomy-</i>
-					The stars are beautiful tonight, Saturn is finally showing... I hope Mars doesn't get too jealous. <br>
-					3.<i>Feelings-</i>
-					Describe the feeling of fear. The catch? You can use only colours,textures and sounds.
-					<li>Your submissions must be sent to <b>recharge@rajalakshmi.edu.in </b>.
-					<li>Plagiarism is not entertained.
-					<li>Prizes will be based on the judge's decision and partially based on the number of likes.
-				  </ul>
-				  <p><b></b></p>
-				  <p><b>Contact :</b></p>
-				  <ol>
-					<li><a href="tel:8825951542">Krithika: +91:8825951542</a></li>
-				  </ol>
-				</div>
-			  </div>
-			</div>
-			<div style="padding-bottom: 10px;">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSerokPNiyLPh_F7Fj6CzLD6mu5kF8FIAIL9al0aroh7PrNVZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-			</div>
-		  </div>
-	  
-		</div>
-	  </div>
-
-<!-- Futsal -->
-<div id="myModal23" class="modal fade" role="dialog">
-	<div class="modal-dialog modal-lg" >
-  
-	  <!-- Modal content-->
-	  <div class="modal-content">
-		<div class="modal-header alert-primary ">
-		  <h4 class="modal-title" style="text-align: center;">FUTSAL</h4>
-		  <button type="button" class="close" data-dismiss="modal">&times;</button>
-		</div>
-		<div class="modal-body" align="left" style="margin-left: 10px;">
-		  <div class="row">
-			<div class="col-md-5" style="padding-top: 10px;"><img src="futsal.jpg" alt="recharge" class="img-fluid">
-				<p><b>Team Size  : </b>5</p>
-				<p><b>Venue : </b>College Campus - Turf</p>
-				<p><b>Date & Time : </b>08/03/2020 & 09.03.2020, 09:00 AM</p>
-				<p><b>Registration Fees : </b>Rs.600 per team</p>
-				<p><b>Prizes Worth : </b>Rs. 20,000</p>
-			</div>
-			<div class="col-md-7">
-			  <p><b>Have you been sleepless lately till the dawn? </b> <br>
-				Being obsessed over one thing and really can’t imagine a life without that?
-				Then the reason behind this is definitely love! The love for Football indeed. 
-				With a great team spirit, ready to rage the field and conquer the goal post!
-				
-			  </p>
-			 
-			  <p><b>Rules: </b></p>
-			  <ul>
-				<li>Tournament will be played on a knock out basis.</li>
-				<li>Please ensure to bring the required kit (flats)
-				</li>
-				<li>Game duration will be 10-3-10. The decision of the officials is final. No further appeals will be encouraged.
-				</li>
-				<li>If any team players fail to arrive at the field within 15min of the
-					scheduled start time, the match will be called off and the team on field with full strength will be announced winners.
-				</li>
-				<li>In case of tie, 3 shoot-outs for each team will be played.
-				</li>
-				<li>Goals cannot be scored directly from the kickoff and goalkeeper throws must bounce before the half.
-				</li>
-				<li>Registration should be paid online or on spot, without registration no teams will be allowed.
-				</li>
-				<li>Participants are requested to note that the entry fee paid is non refundable in any case.
-				</li>
-				<li>If odd number of teams are there, then there will be a lucky loser.</li>
-			  </ul>
-			  <p><b></b></p>
-			  <p><b>Contact :</b></p>
-			  <ol>
-				<li><a href="tel:9123569997">Shaan: +91 9123569997</a></li>
-				<li><a href="tel:9092137947">Sooraj: +91 9092137947</a></li>
-			</ol>
-			</div>
-		  </div>
-		</div>
-		<div style="padding-bottom: 10px;">
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdIVPsnjyWSaTRBfTSZcBW4HejNSdKA4d5LQiih63a2g2A6fA/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-		</div>
-	  </div>
-	</div>
-  </div>
-
-  <!-- Cameo -->
-  <div id="myModal24" class="modal fade" role="dialog">
-	<div class="modal-dialog modal-lg" >
-  
-	  <!-- Modal content-->
-	  <div class="modal-content">
-		<div class="modal-header alert-primary ">
-		  <h4 class="modal-title" style="text-align: center;">Cameo</h4>
-		  <button type="button" class="close" data-dismiss="modal">&times;</button>
-		</div>
-		<div class="modal-body" align="left" style="margin-left: 10px;">
-		  <div class="row">
-			<div class="col-md-5" style="padding-top: 10px;"><img src="videomemes.jpg" alt="recharge" class="img-fluid">
-				<p><b>Online Event</b></p>
-				<p><b>Team Size : </b>1</p>
-				<p><b>Prizes Worth : </b>Rs. 3,000</p>
-			</div>
-			<div class="col-md-7">
-			  <p> 
-				<b>It’s said a picture is worth a thousand words, if so, a video could speak beyond imagination. </b><br>
-				Showcase your talent of relevance by compiling a show that would make our bellies battered! 
-			  </p>
-			  
-			  <p><b>Rules: </b></p>
-			  <ul>
-				<li>This is an online event.
-				<li>No vulgarity or 18+ content is entertained.
-				<li>The entries can only be in English or tamil.
-				<li>Duration: 1 minute.
-				<li>Content that would hurt political/religious/communal sentiments are strictly condemned.
-				<li>Your submissions must be sent to <b>recharge@rajalakshmi.edu.in</b> .
-				<li>Prizes will be based on the judge's decision and partially based on the number of likes.
-
-			  </ul>
-			  <p><b></b></p>
-			  <p><b>Contact :</b></p>
-			  <ol>
-				<li><a href="tel:9445191870">Moni Vignesh: +91 9445191870</a></li>
-				<li><a href="tel:9962559625">Sathya Ruban: +91 9962559625</a></li>
-
-			</ol>
-			</div>
-		  </div>
-		</div>
-		<div style="padding-bottom: 10px;">
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLScEkvP06q0sLfAZKWzeZ5oa_nJcoxOboMELDd3ajoyHOAzSZQ/viewform?embedded=true"><button style="width: 150px;" class="btn btn-success">Register</button></a>
-		</div>
-	  </div>
-	</div>
-  </div>
-
-  
- <!-- back to top button  -->
- <button class="fas fa-angle-double-up" onclick="topFunction()" id="myBtn" title="Go to top"></button>
- 
-
-<!-- footer  -->
-
-  <footer>
-    <div class="footer bg-dark" id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4  col-md-12 col-sm-12">
-                  <h3 class="bgtext">Recharge '20</h3>
-                   <p class="bgtext">Recharge '20 is an Intercollegiate Cultural Fest Conducted by Rajalakshmi Group of Institutions</p>
-                </div>
-               
-              <div class="col-lg-4  col-md-6 col-sm-12">
-                <h3>Contact Us</h3>
-                <ul class="list">
-					<li class="bgtext cont-num" style="color:white"><a href="tel:+91 7338993892" ><i>Secretary</i>-Subhash:+91 7338993892</a></li>
-					<li class="bgtext cont-num"><a href="tel:+91 6385122743"><i>Joint Secretary</i>-Srinithi: +91 6385122743</a></li>
-					<li class="bgtext cont-num">recharge@rajalakshmi.edu.in</li>
-
-                </ul>
-            </div>
-
-                <div class="col-lg-4  col-md-6 col-sm-12" id="contact">
-                    <h3>Socialize</h3>
-                    <p></p>
-                    <ul class="social list list-inline ">
-                        <li> <a href="https://www.facebook.com/myrecchennai"> <i class="social fa fa-facebook fa-2x"></i></a></li>
-                        <li> <a href="https://twitter.com/myrecchennai"> <i class="social fa fa-twitter fa-2x"></i></a></li>
-                        <li> <a href="https://www.youtube.com/user/myrecchennai"> <i class="social fa fa-youtube fa-2x"></i></a></li>
-                        <li> <a href="https://www.instagram.com/recharge_fest/"> <i class="social fa fa-instagram fa-2x"></i></a></li>
-
-                    </ul>
-                </div>
-            </div>
-            <!--/.row--> 
+    <nav class="navbar sticky navbar-expand-lg navbar-light" style="background-color: #FFFFFF;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand img-responsive" href="home.html"><img src="editedlogo.png" height="62" width="120"></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item"><button class="btn headerfont"><a class="active nav-link" href="home.html"><b class="fontcolor">Home</b></a></button></li>
+                <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="home.html#about"><b class="fontcolor">About Us</b></a></button></li>
+                <!-- <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="sponsors.html"><b class="fontcolor">Sponsors</b></a></button></li> -->
+                <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="home.html#gallery"><b class="fontcolor">Gallery</b></a></button></li>
+                <li class="nav-item"><button class="btn headerfont"><a class="nav-link" href="#contact"><b class="fontcolor">Contact</b></a></button></li>
+            </ul>
         </div>
-        <!--/.container--> 
-    </div>
-    <!--/.footer-->
-    <!--/.footer-bottom--> 
-</footer>	
+        <a class="navbar-brand img-responsive"><img src="rilogo.jpg" height="30"></a>
+    </nav>
+    <br><br>
+    <br><br>
+    <center><img class="img-responsive floating" src="recharge logo.png" height="250" alt="Recharge"></center>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="events.js"></script>
-<script>
-	mybutton = document.getElementById("myBtn");
+    <div id="events" class="container-fluid text-center bg-white">
+        <!-- bg-white -->
+        <h2>EVENTS</h2><br>
+        <center><button type="button" class="btn" id="register-btn" onclick="openRules();">General Rules</button></center><br>
+        <i style="font-family: 'Questrial', sans-serif; font-size: 25px;">Register For Events</i><br>
+        <br>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="solodance.jpg" onclick="modal1();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Swing in Style</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="solomusic.jpg" onclick="modal2();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Breaking Records</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="dualdance.jpg" onclick="modal3();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Double Dice</b><br><br>
+                </div>
+            </div>
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="groupdance.jpg" onclick="modal4();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Chorus Feet</b><br><br>
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="soloinstrumental.jpg" onclick="modal5();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Instru-mania</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="musicbands.jpg" onclick="modal6();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Battle of Bands</b><br><br>
+                </div>
+            </div>
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="rapandbeatbox.jpg" onclick="modal7();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Alienated</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="adzap.jpg" onclick="modal8();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Merchant-ize</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="channelsurfing.jpg" onclick="modal9();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Remote Surfing</b><br><br>
+                </div>
+            </div>
 
-	var s = window.location.href.split("#");
-	if(s.length>1)
-    {
-		$("#"+s[1]).modal('show');
-	}
-    console.log(s);
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="shipwreck.jpg" onclick="modal10();" alt="Recharge" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Castaway</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="fifa.png" alt="Recharge" onclick="modal11();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">FIFA 2020</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="photography.jpg" alt="Recharge" onclick="modal12();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Shutter Bug</b><br><br>
 
-function regLoading()
-{
-	$('#regmodal').modal('show');
-}
-</script>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="callofduty.jpg" alt="Recharge" onclick="modal13();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Call Of Duty</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="facepainting.jpg" alt="Recharge" onclick="modal14();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">DisguiseD!</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="variety.jpg" alt="Recharge" onclick="modal15();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Melange</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="fashionwalk.jpg" alt="Recharge" onclick="modal16();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">En Vogue</b><br><br>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="voiceover.jpg" alt="Recharge" onclick="modal18();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Mimic the Gimmick</b><br><br>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="radiojockey.jpg" alt="Recharge" onclick="modal19();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Radio Joke-is-Key</b><br><br>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="mixandmake.jpg" alt="Recharge" onclick="modal21();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Pixelize</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="poetry.jpg" alt="Recharge" width="400" onclick="modal22();" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Professor Quill</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="futsal.jpg " alt="Recharge" width="400" height="300" onclick="modal23();" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Futsal</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="videomemes.jpg" alt="Recharge" width="400" height="300" onclick="modal24();" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Cameo</b><br><br>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="shortfilm.jpg" alt="Recharge" onclick="openSurprise();" width="400" height="300" style="border-radius: 25px;"><br>
+                    <b style="font-family: 'Questrial', sans-serif; font-size: 25px;">Short Film</b><br><br>
+                </div>
+            </div>
+        </div><br>
+
+
+        <!-- Cameo -->
+        <div id="myModal24" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary ">
+                        <h4 class="modal-title" style="text-align: center;">Cameo</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="videomemes.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Online Event</b></p>
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Prizes Worth : </b>Rs. 5,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>It’s said a picture is worth a thousand words, if so, a video could speak beyond imagination. </b><br>
+                                    Showcase your talent of relevance by compiling a show that would make our bellies battered!
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>This is an online event.
+                                    <li> Theme: Engineering.
+                                    <li>No vulgarity or 18+ content is entertained.
+                                    <li>The entries can only be in English or tamil.
+                                    <li>Duration: 1 minute.
+                                    <li>Content that would hurt political/religious/communal sentiments are strictly condemned.
+                                    <li>Your submissions must be sent to <b>recharge@rajalakshmi.edu.in</b> .
+                                    <li>Prizes will be based on the judge's decision and partially based on the number of likes.
+
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9445191870">Moni Vignesh: +91 9445191870</a></li>
+                                    <li><a href="tel:9962559625">Sathya Ruban: +91 9962559625</a></li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Cameo"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rules  -->
+
+        <div id="genrules" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">General Rules</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-12" style="padding-top: 10px;">
+                                <ul>
+                                    <li> Students of Rajalakshmi Institutions (REC, RIT, RSA, RSB, RCN) are confined to participate only in gaming events and futsal.</li>
+                                    <li> Payment made will not be REFUNDED.</li>
+                                    <li> Participants must bring their student IDs, without which they’ll not be allowed to enter the fest.</li>
+                                    <li> Verification will be done at the registration desk.</li>
+                                    <li> Students can participate in more than one event.</li>
+                                    <li> Registrations and payment must be done online for specific events.</li>
+                                    <li> Last date for online registrations is March 5th.</li>
+                                    <li> Accommodation, if required must be intimated during registration.</li>
+                                    <li> Participants are requested to report to the venue at least half an hour before the event.</li>
+                                    <li> Any form of vulgarity or violation of rights will not be entertained.</li>
+                                    <li> Students should strictly abide by the rules and regulations of the event.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Swing n Style -->
+
+        <div id="myModal1" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center	;">Swing in Style - Find your step and lose yourself</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="solodance.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>VENUE : </b> Side stage</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 1:30 PM</p>
+                                <p><b>Duration : </b>3 minutes/participant</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+
+
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>“Dance is the ultimate expression of the soul”</b><br>
+                                    Open invitation to all those who enjoy tapping their feet to the beat and expressing themselves in ways only dance can capture.
+                                    Come join us for the ultimate dancing competition!
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Any dance styles/forms are welcome.</li>
+                                    <li>For first level screening, the link for the videos have to be submitted at
+                                        the time of online registration (Videos of past performances are accepted.)</li>
+                                    <li>Upload your video in your drive and send the link to recharge@rajalakshmi.edu.in with your details.</li>
+                                    <li>Shortlisted participants will be intimated through mail and the payment
+                                        link will be sent through the same.</li>
+                                    <li>Payment must be completed online via the link before 9th March 2020.</li>
+                                    <li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
+                                        It should be under the participant’s possession, in a pen-drive, and submitted
+                                        to the event in-charge 30 minutes before the commencement of the event.</li>
+                                    <li>The songs chosen, costumes and the movements should be decent.</li>
+                                    <li>Any form of vulgarity will lead to disqualification.</li>
+                                    <li>Judge’s decision will be final.</li>
+
+                                </ul>
+
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9566734374"> Amrutha: +91 9566734374</a></li>
+                                    <li><a href="tel:6380789510"> Monica: +91 6380789510</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Swing and Style"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Breaking Records -->
+        <div id="myModal2" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Breaking Records - Set new Re-Chords.</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="solomusic.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>VENUE : </b>Seminar Hall</p>
+                                <p><b>Date & Time : </b>15/03/2020 , 10:00 AM</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+
+                                <p><b>Duration : </b>3 minutes/participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>“Music is to the soul what words are to the mind” </b><br>
+                                    Step out of your bounds as you bring out the hidden potential and carry us away with your vocal flair.
+                                    <br>
+                                </p>
+
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>The participants can choose to perform on any genre of music.</li>
+                                    <li>The participants can use karaoke backing tracks, if any, and the same
+                                        should be submitted to their respective event in-charge, 30 minutes
+                                        before the commencement of the event or they can be accompanied by
+                                        one instrument.</li>
+                                    <li>For first level screening, the link for the videos must be submitted
+                                        at the time of online registration (Videos of past performances are accepted.)</li>
+                                    <li>Upload your video in your drive and send the link to recharge@rajalakshmi.edu.in with your details.</li>
+                                    <li>Shortlisted participants from this first level will be intimated through mail and
+                                        will receive the payment link through the same. </li>
+                                    <li>Payment must be completed online via the link before 9th March 2020.</li>
+                                    <li>The songs chosen for the performance on stage should be decent. </li>
+                                    <li>Judge’s decision will be final.</li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9840750477">Rakshana: +91 9840750477</a></li>
+                                    <li><a href="tel:9176547356">Aakash Nair: +91 9176547356</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Breaking Records"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Dual Dance  -->
+
+        <div id="myModal3" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Double Dice - Double the feet, double the fun</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="dualdance.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>2</p>
+                                <p><b>Venue : </b>Side Stage</p>
+                                <p><b>Date & Time : </b>15/03/2020 , 12:00 PM</p>
+                                <p><b>Registration Fees : </b>Rs.300 per team</p>
+
+                                <p><b>Duration : </b>3 minutes/group</p>
+                                <p><b>Prizes Worth : </b>Rs. 20,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>“Why walk when you can dance?”</b><br>
+                                    Synchronize with style as you and your partner set the stage on fire.
+                                    Embrace the beat as you sway us with your power moves and compete for the title for the ultimate dynamic duo.
+                                    <br>
+                                </p>
+
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Any dance styles/forms are welcome.</li>
+                                    <li>Cross teams are allowed.</li>
+                                    <li>Only one person per team must register.</li>
+                                    <li>For first level screening, the link for the
+                                        videos must be submitted at the time of online
+                                        registration (Videos of past performances are accepted).</li>
+                                    <li>Upload your video in your drive and send the link to recharge@rajalakshmi.edu.in with your details.</li>
+                                    <li>Shortlisted teams from this first level will be intimated
+                                        through mail and will receive the payment link through the same.</li>
+                                    <li>Payment must be completed online via the link before 9th March 2020.</li>
+                                    <li>The second level of screening will be on the day of the event (15th March).</li>
+                                    <li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
+                                        It should be under the participant’s possession, in a pen-drive, and submitted
+                                        to the event in-charge 30 minutes before the commencement of the event.</li>
+                                    <li>The songs chosen & costumes should be decent.</li>
+                                    <li>After two levels of screening, the shortlisted participants will enter the finals (Battle)</li>
+                                    <li>Judge’s decision will be final.</li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+
+                                    <li><a href="tel:9445586953"> Pranav : +91 9445586953</a></li>
+                                    <li><a href="tel:7010870052"> Rohit: +91 7010870052</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+			<a href="https://www.rajalakshmi.org/recharge/register.php?event=Double Dice"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+<!--
+                        <a><button style="width: 150px;" class="btn btn-success">Register</button></a>
+-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Group Dance -->
+
+        <div id="myModal4" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Chorus Feet - Synchronize with style.</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="groupdance.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>8-20</p>
+                                <p><b>Venue : </b> Main stage</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 10:00 AM</p>
+                                <p><b>Registration Fees : </b>Rs.800 per team</p>
+
+                                <p><b>Duration : </b>1 + 4 minutes/group</p>
+                                <p><b>Prizes Worth : </b>Rs. 35,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>“Dancers don’t need wings to fly!”</b><br>
+                                    Only creative expression and an iron will to dazzle their audience.
+                                    Rally your crew and prepare to stun as you enthral the crowd using
+                                    the rhythm of feet. Engage and make us experience the ecstacy of dance.
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Cross teams are allowed.</li>
+                                    <li>Only one person per team must register.</li>
+                                    <li>For first level screening, the link for the
+                                        videos must be submitted at the time of online registration
+                                        (Videos of past performances are accepted).</li>
+                                    <li>Upload your video in your drive and send the link to recharge@rajalakshmi.edu.in with your details.</li>
+                                    <li>Shortlisted teams from this first level will be intimated
+                                        through mail and will receive the payment link through the same.</li>
+                                    <li>Payment must be completed online via the link before 9th March 2020.</li>
+                                    <li>Audio Tracks to be used for the on-stage performance must be in mp3 format only.
+                                        It should be under the participant’s possession, in a pen-drive, and submitted to
+                                        the event in charge 30 minutes before the commencement of the event.</li>
+                                    <li>The songs chosen & costumes should be decent.</li>
+                                    <li>Judge's decision will be final.</li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+
+                                    <li><a href="tel:8870142198"> Dilli Rao: +91 8870142198</a></li>
+                                    <li><a href="tel:7550149419"> Harish: +91 7550149419</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Chorus Feet"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Solo Instrumental -->
+
+        <div id="myModal5" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Instru-mania - Vibe like the Pied Piper</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="soloinstrumental.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Venue : </b>Seminar Hall</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 10:30 AM</p>
+                                <p><b>Duration : </b>1+3 minutes/participant</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Do you mesmerize people with your tunes? Show your skills and drench us with
+                                    your spellbinding music. This is your platform to display your profound acoustic talent.
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Participants should bring their own instruments.</li>
+                                    <li>Participants are required to set up instruments without any delay.</li>
+                                    <li>Upload your video in your drive and send the link to recharge@rajalakshmi.edu.in with your details.</li>
+                                    <li>For first level screening, the link for the videos must be submitted at the time of online registration (Videos of past performances are accepted.)</li>
+                                    <li>Shortlisted participants from this first level will be intimated through mail and will receive the payment link through the same.</li>
+                                    <li>Payment must be completed online via the link before 9th March 2020.</li>
+                                    <li>A 5 Piece Drum kit will be provided.</li>
+                                    <li>Judge's decision will be final.</li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:8610587144"> Kaushik: +91 8610587144</a></li>
+                                    <li><a href="tel:9080013077"> Subashini: +91 9080013077</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Tune Your Strings"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Music Bands  -->
+        <div id="myModal6" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Battle of Bands - Play your way to stardom</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="musicbands.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>3-10</p>
+                                <p><b>Venue : </b>Main Stage</p>
+				<p><b>Genre : </b>Eastern</p> 
+                                <p><b>Date & Time : </b>15/03/2020 , 10:00 AM</p>
+                                <p><b>Duration : </b>5 + 10 minutes/group</p>
+                                <p><b>Registration Fees : </b>Rs.800 per team</p>
+
+                                <p><b>Prizes Worth : </b>Rs. 35,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Ever wanted to do a symphony in front of a huge audience?
+                                    Are you ready to conquer the arena with your chords? Assemble your band and battle it out with your sticks and strings.
+                                    <br>
+                                </p>
+
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Open teams are allowed.</li>
+                                    <li>Only one person per team must register.</li>
+                                    <li>For first level screening, the link for the videos must
+                                        be submitted at the time of online registration (Videos of past performances are accepted).</li>
+                                    <li>Upload your video in your drive and send the link to recharge@rajalakshmi.edu.in with your details.</li>
+                                    <li>Shortlisted teams from this first level will be intimated through mail and will receive the payment
+                                        link through the same.</li>
+                                    <li>Payment must be completed online via the link before 9th March 2020.</li>
+                                    <li>Same participant cannot contribute for two different bands.</li>
+                                    <li>Participants should bring their own instruments.</li>
+                                    <li>The songs to be performed on stage must be only in Indian languages.</li>
+                                    <li>A standard 5 piece drum kit with one bass amplifier, guitar amplifier and keyboard amplifier will be provided.</li>
+                                    <li>Any form of vulgarity will not be entertained and the judges have the rights to disqualify the band
+                                        in case of any.
+                                    </li>
+                                    <li>Judge's decision will be final.</li>
+
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9042019247"> Karthik Shanker: +91 9042019247</a></li>
+                                    <li><a href="tel:6369122317">Jabez Samuel: +91 6369122317</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Philharmonic"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- rapandbeatbox -->
+        <div id="myModal7" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Alienated - Raid the rhythm</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="rapandbeatbox.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>2</p>
+                                <p><b>Venue : </b>Side Stage</p>
+                                <p><b>Date & Time : </b>15/03/2020 , 02:00 PM</p>
+                                <p><b>Duration : </b>3 minutes/group</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>“Rap is poetry with a beat”</b><br>
+                                    Are you infamously known as your college’s Slim Shady or Doug E. Fresh . Then, Grab the opportunity to prove that you are a human
+                                    beat boxing machine and can win the time over words.
+                                    <br>
+                                </p>
+
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Cross teams are allowed.</li>
+                                    <li>Only one person per team must register.</li>
+                                    <li>Team should consist of a rapper and a beatboxer.</li>
+                                    <li>Since the registration is based on first come, first serve, the registration link will be opened for a limited time.</li>
+                                    <li>Registration and payment must be done online.</li>
+                                    <li>Any form of vulgarity will lead to disqualification.</li>
+                                    <li>Judge's decision will be final.</li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9840703211">Hariharan: +91 9840703211</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Alienated"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- adzap -->
+        <div id="myModal8" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Merchant-ize - Marketing madness personified </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="adzap.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>5-7</p>
+                                <p><b>Venue : </b>Side Stage</p>
+                                <p><b>Date & Time : </b>15/03/2020 , 10:00 AM</p>
+                                <p><b>Duration : </b>3 minutes/group</p>
+                                <p><b>Registration Fees : </b>Rs.100 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 20,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Do you have the knack for pitching ideas for your product?
+                                    Unleash your retailing capability and showcase your brand in the world stage!
+                                    <br>
+                                </p>
+
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Cross teams are allowed.</li>
+                                    <li>Only one person per team must register.</li>
+                                    <li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
+                                    <li>Payment must be completed online via the link before the given deadline.</li>
+                                    <li>Any form of vulgarity will lead to disqualification.</li>
+                                    <li>Judge’s decision will be final.</li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9176408352">Sowmya: +91 9176408352</a></li>
+                                    <li><a href="tel:7338980425">Sree Varshini: +91 7338980425</a></li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Merchant-ize"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- channelsurfing -->
+        <div id="myModal9" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Remote Surfing - I’ll be watching you </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="channelsurfing.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>4-6</p>
+                                <p><b>Venue : </b>Side Stage</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 10:00 AM</p>
+                                <p><b>Duration : </b>3 minutes/group</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 20,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Reactive to infrared rays? You can’t stop the waves but you can learn
+                                    to surf! Be our TV and bring to life the characters, as we surf through the channels.
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Cross teams are allowed.</li>
+                                    <li>Only one person per team must register.</li>
+                                    <li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
+                                    <li>Payment must be completed online via the link before the given deadline.</li>
+                                    <li>Any form of vulgarity will lead to disqualification.</li>
+                                    <li>Judge's decision will be final.</li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:+91 8124889991">Nidhuna Jose : +91 8124889991 </a></li>
+                                    <li><a href="tel:9042849002">Mohit: +91 9042849002</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Remote Surfing"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- shipwreck -->
+        <div id="myModal10" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Castaway - Seas the jacket</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="shipwreck.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Venue : </b>Seminar hall</p>
+                                <p><b>Date & Time : </b>15/03/2020 , 12:00 PM</p>
+                                <p><b>Duration: </b>2 minutes</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>“A quest of survival becomes the adventure of a life time”</b><br>
+                                    How good at you at persuading? Get ready to delve into the lives of personalities and seas the opportunity to save yourself!
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
+                                    <li>Payment must be completed online via the link before the given deadline.</li>
+                                    <li>Any form of vulgarity will lead to disqualification.</li>
+                                    <li>Judges’ decision will be final.</li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9940023499">Srivats: +91 9940023499</a></li>
+                                    <li><a href="tel:7092198661">Keerthana: +91 7092198661</a></li>
+
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Castaway"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- fifa -->
+        <div id="myModal11" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">FIFA 2020</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="fifa.png" alt="recharge" class="img-fluid">
+                                <b>On spot Registration</b>
+
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Venue : </b>Tech Lounge</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 11:00 AM</p>
+                                <p><b>Registration Fees : </b>Rs.200 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>“Life’s great with football” isn’t it? </b><br>
+                                    It’s time to bring the match home and to your hands. Join us and showcase your FIFA skills.
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>It is an individual event.</li>
+                                    <li>Registration and payment must be done online.</li>
+                                    <li>Participants must be present in the room while playing.</li>
+                                    <li>Participants will be provided consoles and controllers. The participants
+                                        can also bring their own controllers or use the keyboard as per their wish.
+                                        It is the responsibility of all players to be familiar with the controller’s
+                                        functions and mode of operation.</li>
+                                    <li>You CANNOT pause the game unless the game is stopped i.e. if it’s a throw in or ball is in your own keeper’s possession. If you pause the game intentionally, you may be warned or disqualified at referee’s discretion. Second warning will disqualify you automatically. You have 40 seconds after the pause.</li>
+                                    <li>The game will begin only after the referee confirms all settings are according to the rules.</li>
+                                    <li>In case of any kind of unfortunate event or disconnection, disc error or electricity failure, the score will remain the same regardless of game played but the half in which the problem occurred will be played again.</li>
+                                    <li>If the regular time results end in a draw, then the winner will be decided through penalties without extra time.</li>
+                                    <li>Misconduct during the tournament will disqualify the entire team.</li>
+                                </ul>
+                                <p><b>In Game Rules:</b></p>
+                                <li> Half-time of 4 minutes with difficulty level of AI controlled players at 'Legendary' 2. You can use and customize any tactics but only at the beginning of the game.
+                                <li> All matches will be CLASSIC kick-off matches only.
+                                <li> NO Timed Shot with all other controls at 'Semi-Assisted'.
+                                <li> Tactical defending mode only.
+                                <li> You CANNOT select any fictional or All-Star teams. Any regular season teams, as installed with the original game, can be selected.
+                                <li> You are only allowed to choose a CLUB team against another CLUB team and an INTERNATIONAL team against an INTERNATIONAL team.
+                                <li> Both Players CAN select the same team.
+                                <li> At the end of regular time, if the match ends in a draw, the winner will be decided through penalties without proceeding to EXTRA TIME.
+                                <li> Selecting Preset formations (4-3-3 or 4-4-2 etc) are allowed before the match starts.
+                                <li> Once the match has started, players can pause the game to change strategy, tactics and/or formation ONLY when (i)The ball is out of play or during setpieces. (But formation change is not allowed) (ii) a player of his team is sent off (iii) a player of his team is injured.
+                                <li> Set pieces are available. Man Marking and Injuries are allowed.
+                                <li> No handball
+                                    <p><b></b></p>
+                                    <p><b>Contact :</b></p>
+                                    <ol>
+                                        <li><a href="tel:8870413136">Sriram: +91 8870413136</a></li>
+                                        <li><a href="tel:8015275654">Sujith: +91 8015275654</a></li>
+                                    </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- photography -->
+        <div id="myModal12" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Shutter Bug - Live through the lens</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="photography.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Venue : </b>COLLEGE CAMPUS</p>
+                                <p><b>Date & Time : </b>16/03/2020, 12:00 PM</p>
+                                <p><b>Registration Fees : </b>Rs.200 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    No place is boring, if you’ve had a good night’s
+                                    sleep and have a pocket full of unexposed film. Presenting you the opportunity to capture/freeze the moment .
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li> Theme will be given On-Spot.
+                                    <li> Registration and payment must be done online.</li>
+                                    <li> Participants should bring their own Camera. The participants must submit their best picture (only one entry) before the end of the event to the judge.
+                                        Further information will be provided on the day of the event.
+                                    <li>Mobile photography is strictly prohibited.</li>
+                                    <li> Photos should be in JPEG format.
+                                    <li>Only basic color corrections allowed.</li>
+                                    <li> Strictly no plagiarism.
+                                    <li> Photographs are strictly restricted within the campus boundaries.
+                                    <li> Judge’s decision will be final.
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:7358299819">Hefwin : +91 7358299819</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Shutter Bug"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- callofduty -->
+        <div id="myModal13" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Call Of Duty - War Machine</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="callofduty.jpg" alt="recharge" class="img-fluid">
+                                <b>On spot Registration</b> <br>
+                                <p><b>Team Size : </b>4</p>
+                                <p><b>Venue : </b>Tech Lounge</p>
+                                <p><b>Date & Time : </b>15/03/2020 , 11:00 AM</p>
+                                <p><b>Registration Fees : </b>Rs.200 per team</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>Do people mistake you for a bot on multiplayer?</b><br>
+                                    Think you’re dexterous enough to own the server ?
+                                    Its time for your troops to be deployed. Grab your weapon!
+                                    <br>
+                                </p>
+
+                                <p><b>Tournament Rules: </b></p>
+                                <ul>
+<!--                                    <li>Teams must register as a 4 member squad with no substitutes.</li>
+-->
+                                    <li>Registration and payment must be done online.</li>
+                                    <li>Participants without a team will be grouped on spot with other individual members. </li>
+                                    <li>Participants should be present in the room while playing.</li>
+                                    <li>Players must bring their own mobiles and chargers if necessary for the tournament. </li>
+                                    <li>Payment must be made as a team and not as individual members. </li>
+                                    <li>Room ID will be provided only after registrations have been verified</li>
+                                    <li>Teams must be present at the room before 15 minutes of the tournament commencement. </li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Game Rules: </b></p>
+                                <ul>
+                                    <li>Players must choose their classes: medic, scout, clown, ninja, defender, mechanic and inform the coordinators the same before the beginning. Any changes from the mentioned classes while in-game will result in disqualification of the team.</li>
+                                    <li>Emulators are strictly not allowed and the team will be disqualified if found. </li>
+                                    <li>Mod APKs, Rooted devices are strictly prohibited. </li>
+                                    <li>Bugs and glitches may not be exploited to your advantage. If found, the team will be disqualified</li>
+                                    <li>Misconduct during the tournament will disqualify the entire team. </li>
+                                    <li>Players must refrain from using offensive language. </li>
+                                    <li>Referees decision will be final under any circumstances.</li>
+                                </ul>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9944190899">Md. Amja: +91 9944190899</a></li>
+                                    <li><a href="tel:7397488287">Swetha: +91 7397488287</a></li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- facepainting -->
+        <div id="myModal14" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">DisguiseD! - Mask like a maverick</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="facepainting.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>2</p>
+                                <p><b>Venue : </b>Seminar Hall</p>
+                                <p><b>Date & Time : </b>15/03/2020 , 03:30 PM</p>
+                                <p><b>Duration : </b>60 minutes/team</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>A picture is a poem without words ! </b><br>
+                                    Are you the person with the talent of turning a canvas into an artistic wonder ?
+                                    then this is your stage to create something which cannot be explained but only experienced. Lose yourself and drown in the colours of artistry !
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+
+                                    <li> The facepainting should be in any one of the following themes: Tribal art, Horror, Patterns.
+                                    <li> Participants can choose any one theme from the above.
+                                    <li> Registrations and payment must be done online within the given deadline.
+                                    <li> Required materials must be brought by the participants.
+                                    <li> Judge's decision will be final.
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9952594533">Janani: +91 9952594533</a></li>
+                                    <li><a href="tel:9080037354">Durga: +91 9080037354</a></li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=DisguiseD"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- variety -->
+        <div id="myModal15" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Melange</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="variety.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1-12</p>
+                                <p><b>Venue : </b>Main Stage
+                                </p>
+                                <p><b>Date & Time : </b>15/03/2020, 02:30 PM</p>
+                                <p><b>Duration : </b>3 + 10 minutes/group</p>
+                                <p><b>Registration Fees : </b>Rs.200 per participant</p>
+                                <p><b>Prizes Worth :</b>Rs. 30,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>Variety’s the very spice of life that gives it all its flavour!</b><br>
+                                    Have you always wanted to shout to the world a message, not with
+                                    words but with an act? Grab your skills and indulge in any form of art and hook us to it!
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Participants must bring their own sound tracks, in a pendrive,if needed.</li>
+                                    <li>The sound tracks should be given to the event in-charge 30 minutes before the event commences. </li>
+                                    <li>Incase of violation of the time limit,offensive,obscene or disrespectful actions,
+                                        the team will be disqualified.
+                                    <li> The participants should be atleast 30 minutes prior to the event.
+                                    <li> The points will be awarded on the basis of innovation, teamwork,and creativity.
+                                    <li> Any performance of the participant's choice - Magic, puppet, shadow, mime, street play, etc.
+                                        can be performed.
+                                    <li> Props can be used but explosives are not entertained.
+                                    <li>Registration and payment must be done online.</li>
+                                    <li>Since the registration is based on first come, first serve, the registration link will be opened only for a limited time.</li>
+                                    <li>Judge's decision will be final.</li>
+
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:6380668043">Ganesh: +91 6380668043</a></li>
+                                    <li><a href="tel:7338792093">Bavish: +91 7338792093</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Melange"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- fashionwalk -->
+        <div id="myModal16" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">En Vogue - Seize the show </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="fashionwalk.jpg" alt="recharge" class="img-fluid">
+                                <!-- <p><b>Team Size : : </b>1</p> -->
+                                <p><b>Team Size : </b>5-8</p>
+                                <p><b>Venue : </b>Main Stage</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 01:30 PM</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+                                <p><b>Prizes Worth :</b>Rs. 50,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>Style is a reflection of your personality and attitude!</b><br>
+                                    Are you the person who has the confidence to showcase yourself? Then Create your own visual style ,let it be unique and yet identifiable for others.
+                                    People will stare , make it worth a while !
+
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Time limit : 10 minutes (including stage set up)
+                                    <li>Each member of the team should strictly follow the theme : Fusion of cultures.
+                                    <li> Since the registration is based on first come first served, the registration link will be open for a limited time.
+                                    <li> For first round of screening,judgement will be based on costumes, delivery of the theme ,walking stance and attitude.
+                                    <li> The shortlisted participants from this first level will go to the finals. The judgement is based on the talent exhibited by the participant and also the answer to the questions asked by the judges.
+                                    <li> Music tracks should be submitted, in a pendrive, to the student in-charge 30 minutes before the event commences.
+                                    <li> Offensive behavior & vulgarity may lead to disqualification.
+                                    <li> Negative marks are allotted if the time limit is exceeded.
+                                    <li> All costumes are permitted, which maintain decency.
+                                    <li> Use of accessories such as fire, animals, explosives and colour must be avoided.
+                                    <li>Judge's decision will be final.
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9677047666">Mohamed Ashiq: +91 9677047666</a></li>
+                                    <li><a href="tel:7305229294">Ishika: +91 7305229294</a></li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=En Vogue"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- If any new events to be added -->
+
+
+        <!-- voiceover -->
+        <div id="myModal18" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Mimic the Gimmick - Lip syncing gone wild! </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="voiceover.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Venue : </b>Seminar Hall</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 01.30 PM</p>
+                                <p><b>Duration : </b>3 minutes/participant</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 5,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>Humour is laughing at what you haven’t got when you ought to have it.</b><br>
+                                    Are there times when all you can think about is ,how to make the situation funny?
+                                    Show up and twist other people’s words by giving them a voice over
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+
+                                    <li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.
+                                    <li>Payment must be completed online via the link before the given deadline.
+                                    <li>However profane or vulgar languages will lead to immediate disqualification.
+                                    <li>Marking criteria: Spontaneity and humor.
+                                    <li>Judge’s decision will be final.
+
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9600194521">Ajath: +91 9600194521</a></li>
+                                    <li><a href="tel:9363346700">Panbalan: +91 9363346700</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Mimic the Gimmick"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- radiojockey -->
+        <div id="myModal19" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Radio Joke-is-Key</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="radiojockey.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Venue : </b>Side Stage</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 11:30 AM</p>
+                                <p><b>Duration : </b>3 minutes</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b> Spontaneity and rapidity are the linchpins for a triumphant Radio Jockey!</b> <br>
+                                    Are you the person full of enthusiasm who never gets exhausted for speaking round the clock? Recharge’20 is looking for a proficient RJ. If you’re spontaneous, smart and having a brilliant sense of humour, buckle up to grab the pipe bomb because you could be the One!
+
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li> Theme will be given on-spot.
+                                    </li>
+                                    <li>Since the registration is based on First Come First Served, the registration link will be open only for a limited amount of time.</li>
+                                    <li>Payment must be completed online via the link before the given deadline. Participants can express themselves in both languages’ Tamil and English.
+                                    </li>
+                                    <li>However profane or vulgar languages will lead to immediate disqualification.
+                                    </li>
+                                    <li>Marking criteria: Spontaneity, creativity and humor.
+                                    </li>
+                                    <li>Judge’s decision will be final.
+                                    </li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+
+                                    <li><a href="tel:9840703211">Vaishnavi: +91 9840703211</a></li>
+                                    <li><a href="tel:9940532305">Roshika: +91 9940532305</a></li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Radio Joke-is-Key"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Any new events to be added  -->
+
+
+        <!-- mixandmake -->
+        <div id="myModal21" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center;">Pixelize - Blend to perfection</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5 " style="padding-top: 10px;"><img src="mixandmake.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Venue : </b>Tech Lounge</p>
+                                <p><b>Date & Time : </b>15/03/2020 , 01:00 PM</p>
+                                <p><b>Duration : </b>60 minutes</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p>
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p><b> Design that leaves a lasting impression. Do you love playing with pixels, colours and backgrounds? </b><br>
+                                    Recharge’20 is looking for designers whose designing skills say a story that mesmerizes the eyes of the one looking at. Are you up for showing your skills? Then get your tools ready and come capture the design kingdom
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+
+
+                                    <li>Judging criteria : creativity, innovation and uniqueness.
+
+                                    <li>Participants can bring their own laptops.
+
+                                    <li>If you are not comfortable with the equipments we provide (mouse and keyboard), you can bring your own trackpad,stylus etc but should get approval before the contest.</li>
+
+
+
+                                    <li>Your entry should not have elements that would likely be offensive to the majority of people who see it.</li>
+                                    <li>Your entry should not have elements that are not safe for work(hate crimes, blurred out porn, injury, sickness, obscene gestures).</li>
+                                    <li>Your entry should not contain children for which you personally do not have a model release.
+
+                                    <li>Your entry should not contain material that you don't have the legal right to use.
+
+                                    <li>You cannot change an insignificant part of an otherwise outstanding image that you didn't create
+                                        (regardless of whether you had permission and/or credit it appropriately).
+
+                                    <li>Your entry should not be a re-creation (source for source) of an existing photo manipulated image or tutorial.
+
+                                    <li>Your entry should not contain someone else’s material that you did have a legal right to use.
+                                    <li>Since the registration is based on first come, first serve, registrations will be opened only for a limited time.</li>
+
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9176436569">Senthil Kumar: +91 9176436569</a></li>
+                                    <li><a href="tel:7358742419">Udhai Solai: +91 7358742419</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Pixelize"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- poetry -->
+        <div id="myModal22" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary ">
+                        <h4 class="modal-title" style="text-align: center;">Professor Quill - Pen down the panorama</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="poetry.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Online Event</b></p>
+                                <p><b>Team Size : </b>1</p>
+
+                                <p><b>Prizes Worth : </b>Rs. 10,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>A poet can survive everything but a misprint!</b><br>
+                                    Penning down your emotions and thoughts is the capability to attain eternity .
+                                    Grab your quill and redefine literature.
+                                    <br>
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>This is an online event.
+                                    <li>The theme can be any one of these:<br>
+                                        1.<i>Days-</i>
+                                        Describe days of the week as if they are a set of people. <br>
+                                        2.<i>Astronomy-</i>
+                                        The stars are beautiful tonight, Saturn is finally showing. I hope Mars doesn't get too jealous. <br>
+                                        3.<i>Feelings-</i>
+                                        Describe the feeling of fear. The catch? You can use only colours, textures and sounds.
+                                    <li>Your submissions must be sent to <b>recharge@rajalakshmi.edu.in </b>.
+                                    <li>Plagiarism is not entertained.
+                                    <li>Prizes will be based on the judge's decision and partially based on the number of likes.
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:8825951542">Krithika: +91:8825951542</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Professor Quill"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Futsal -->
+        <div id="myModal23" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary ">
+                        <h4 class="modal-title" style="text-align: center;">FUTSAL</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="futsal.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Team Size : </b>5</p>
+                                <p><b>Venue : </b>College Campus - Turf</p>
+                                <p><b>Date & Time : </b>15/03/2020 & 16/03/2020, 09:00 AM</p>
+                                <p><b>Registration Fees : </b>Rs.600 per team</p>
+                                <p><b>Prizes Worth : </b>Rs. 25,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p><b>Have you been sleepless lately till the dawn? </b> <br>
+                                    Being obsessed over one thing and really can’t imagine a life without that?
+                                    Then the reason behind this is definitely love! The love for Football indeed.
+                                    With a great team spirit, ready to rage the field and conquer the goal post!
+
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>Tournament will be played on a knock out basis.</li>
+                                    <li>Please ensure to bring the required kit (boots)
+                                    </li>
+                                    <li>Game duration will be 7-3-7. The decision of the officials is final. No further appeals will be encouraged.
+                                    </li>
+                                    <li>If any team players fail to arrive at the field within 10 minutes of the
+                                        scheduled start time, the match will be called off and the team on field with full strength will be announced winners.
+                                    </li>
+                                    <li>Goals cannot be scored directly from the kickoff and goalkeeper throws must bounce before the half.
+                                    </li>
+                                    <li>Registration and payment must be done online.
+                                    </li>
+                                    <li>Participants are requested to note that the entry fee paid is non refundable in any case.
+                                    </li>
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9123569997">Shaan: +91 9123569997</a></li>
+                                    <li><a href="tel:9092137947">Suraj: +91 9092137947</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Futsal"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cameo -->
+        <div id="myModal24" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary ">
+                        <h4 class="modal-title" style="text-align: center;">Cameo</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="videomemes.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Online Event</b></p>
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Prizes Worth : </b>Rs. 5,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>It’s said a picture is worth a thousand words, if so, a video could speak beyond imagination. </b><br>
+                                    Showcase your talent of relevance by compiling a show that would make our bellies battered!
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>This is an online event.
+                                    <li> Theme: Engineering.
+                                    <li>No vulgarity or 18+ content is entertained.
+                                    <li>The entries can only be in English or tamil.
+                                    <li>Duration: 1 minute.
+                                    <li>Content that would hurt political/religious/communal sentiments are strictly condemned.
+                                    <li>Your submissions must be sent to <b>recharge@rajalakshmi.edu.in</b> .
+                                    <li>Prizes will be based on the judge's decision and partially based on the number of likes.
+
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9445191870">Moni Vignesh: +91 9445191870</a></li>
+                                    <li><a href="tel:9962559625">Sathya Ruban: +91 9962559625</a></li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Cameo"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cameo -->
+        <div id="myModal24" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary ">
+                        <h4 class="modal-title" style="text-align: center;">Cameo</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="videomemes.jpg" alt="recharge" class="img-fluid">
+                                <p><b>Online Event</b></p>
+                                <p><b>Team Size : </b>1</p>
+                                <p><b>Prizes Worth : </b>Rs. 5,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    <b>It’s said a picture is worth a thousand words, if so, a video could speak beyond imagination. </b><br>
+                                    Showcase your talent of relevance by compiling a show that would make our bellies battered!
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>This is an online event.
+                                    <li> Theme: Engineering.
+                                    <li>No vulgarity or 18+ content is entertained.
+                                    <li>The entries can only be in English or tamil.
+                                    <li>Duration: 1 minute.
+                                    <li>Content that would hurt political/religious/communal sentiments are strictly condemned.
+                                    <li>Your submissions must be sent to <b>recharge@rajalakshmi.edu.in</b> .
+                                    <li>Prizes will be based on the judge's decision and partially based on the number of likes.
+
+                                </ul>
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9445191870">Moni Vignesh: +91 9445191870</a></li>
+                                    <li><a href="tel:9962559625">Sathya Ruban: +91 9962559625</a></li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.rajalakshmi.org/recharge/register.php?event=Cameo"><button style="width: 150px;" class="btn btn-success">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myModal25" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert-primary">
+                        <h4 class="modal-title" style="text-align: center	;">Short Film</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" align="left" style="margin-left: 10px;">
+                        <div class="row">
+                            <div class="col-md-5" style="padding-top: 10px;"><img src="shortfilm.jpg" alt="recharge" class="img-fluid">
+                                <!-- <p><b>Team Size : </b>1</p>
+                                <p><b>VENUE : </b> Side stage</p>
+                                <p><b>Date & Time : </b>16/03/2020 , 1:30 PM</p>
+                                <p><b>Duration : </b>3 minutes/participant</p>
+                                <p><b>Registration Fees : </b>Rs.150 per participant</p> -->
+
+
+                                <p><b>Prizes Worth : </b>Rs. 15,000/-</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    From Martin Scorsese to Mani Ratnam, from Alfred Hitchcock to A. R. Murugadoss the screen is all set to showcase your ability to capture an audience with your film making abilities. Come grab your golden ticket to join the 
+                                    short film hall of fame as you compete to mesmerise the audience with your own short film.
+                                </p>
+
+                                <p><b>Rules: </b></p>
+                                <ul>
+                                    <li>There is no particular theme for the short film.</li>
+                                    <li>Entries can be documentaries, animation, commercial or experimental</li>
+                                    <li>Content that would hurt political/religious/communal sentiments are strictly condemned.</li>
+                                    <li>The film must contains SUBTITLES.</li>
+                                    <li>Submit your entry to <a href="#">recharge@rajalakshmi.edu.in</a> along with your details.</li>
+                                    <li>The entries once submitted cannot be withdrawn or replaced.</li>
+                                    <li>Duration of the films must be 2-4 minutes.</li>
+                                    <li>Adult content of any kind in the film will lead to disqualification.</li>
+                                    <li>Last day of submission : 11th March 2020 by 11:59:59 PM </li>
+                                </ul>
+
+                                <p><b></b></p>
+                                <p><b>Contact :</b></p>
+                                <ol>
+                                    <li><a href="tel:9962285188"> Sidharth: +91 9962285188</a></li>
+                                    <!-- <li><a href="tel:6380789510"> Monica: +91 6380789510</a></li> -->
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <!-- <a href="https://www.rajalakshmi.org/recharge/register.php?event=Swing and Style"><button style="width: 150px;" class="btn btn-success">Register</button></a> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+        <!-- back to top button  -->
+        <button class="fas fa-angle-double-up" onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+
+        <!-- footer  -->
+
+        <footer>
+            <div class="footer bg-dark" id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4  col-md-12 col-sm-12">
+                            <h3 class="bgtext">Recharge '20</h3>
+                            <p class="bgtext">Recharge '20 is an Intercollegiate Cultural Fest Conducted by Rajalakshmi Group of Institutions</p>
+                        </div>
+
+                        <div class="col-lg-4  col-md-6 col-sm-12">
+                            <h3>Contact Us</h3>
+                            <ul class="list">
+                                <li class="bgtext cont-num" style="color:white"><a href="tel:+91 7338993892"><i>Secretary</i>-Subhash:+91 7338993892</a></li>
+                                <li class="bgtext cont-num"><a href="tel:+91 6385122743"><i>Joint Secretary</i>-Srinithi: +91 6385122743</a></li>
+                                <li class="bgtext cont-num">recharge@rajalakshmi.edu.in</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4  col-md-6 col-sm-12" id="contact">
+                            <h3>Socialize</h3>
+                            <p></p>
+                            <ul class="social list list-inline ">
+                                <li> <a href="https://www.facebook.com/myrecchennai"> <i class="social fa fa-facebook fa-2x"></i></a></li>
+                                <li> <a href="https://twitter.com/myrecchennai"> <i class="social fa fa-twitter fa-2x"></i></a></li>
+                                <li> <a href="https://www.youtube.com/user/myrecchennai"> <i class="social fa fa-youtube fa-2x"></i></a></li>
+                                <li> <a href="https://www.instagram.com/recharge_fest/"> <i class="social fa fa-instagram fa-2x"></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </div>
+            <!--/.footer-->
+            <!--/.footer-bottom-->
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="events.js"></script>
+        <script>
+            mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+
+            var s = window.location.href.split("#");
+            if (s.length > 1) {
+                $("#" + s[1]).modal('show');
+            }
+            console.log(s);
+
+            function regLoading() {
+                $('#regmodal').modal('show');
+            }
+
+        </script>
 </body>
+
 </html>
