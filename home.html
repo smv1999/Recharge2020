@@ -163,10 +163,13 @@
     <button type="button" id="register-btn" class="btn" ><i class="fa fa-battery-quarter" aria-hidden="true"></i>
    <span>Recharge</span><span class="reg"> Register</span> </i>
   </button>&nbsp;&nbsp;fast !</h3>
-  <center><h3 class="txt-responsive"><a href="register.php"
+  <center><h3 class="txt-responsive"><a href="events.html"
     type="button" id="evtregister-btn" class="btn">Events Registration</a> 
- <a href="registerpass.php" 
-    type="button" id="visitor-btn" class="btn">Visitor's Registration</a></h3>
+    <!-- <a href="elitepass.html" 
+    type="button" id="visitor-btn" class="btn">Elite Pass</a> -->
+  <a href="registerpass.php" 
+    type="button" id="visitor-btn" class="btn">Visitor's Registration</a>
+  </h3>
 </center>
 </div>
 <br><br>
@@ -607,10 +610,10 @@ function topFunction() {
   
 function myFunction()
 {
-  // if(!navigator.onLine)
-  // {
-  //   window.open("nointernet.html","_self");
-  // }
+  if(!navigator.onLine)
+  {
+    window.open("nointernet.html","_self");
+  }
 }
 
 function openCalendar()
